@@ -2,9 +2,6 @@ name: Daily News Radio
 
 on:
   workflow_dispatch:
-  schedule:
-    # JST 06:20 daily (UTC 21:20 on the previous day)
-    - cron: "20 21 * * *"
 
 permissions:
   contents: write

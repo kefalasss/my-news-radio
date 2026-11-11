@@ -17,12 +17,18 @@
     "note": "テンプレートのキャラクターを仮使用中"
   },
   "credits": [
-    "キャラクター：myradio テンプレート（仮）"
+    "キャラクター：myradio テンプレート（仮）",
+    "音声：Open JTalk / HTS Voice NIT ATR503 M001 © Nagoya Institute of Technology (HTS Working Group), CC BY 3.0"
   ],
-  "caster": "キャスター（仮）",
+  "caster": "声：Open JTalk（仮）",
   "audio": {
     "dir": "audio",
     "keep_days": 30
   },
-  "weather": true
+  "weather": true,
+  "schedule": {
+    "every": "day",
+    "time": "06:20",
+    "timezone": "Asia/Tokyo"
+  }
 }

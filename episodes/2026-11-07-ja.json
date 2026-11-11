@@ -1,0 +1,321 @@
+{
+ "title": "動画が15秒に！ジェミニ オムニ一般提供",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月七日、土曜日の朝です。",
+   "show": "おはようございます、ものラジオです。11月7日、土曜日の朝です。"
+  },
+  {
+   "say": "今日は動画生成から翻訳、三ディーシージーまで、五本のニュースをお届けします。",
+   "show": "今日は動画生成から翻訳、3DCGまで5本です。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Gemini Omni 1.2 Flash",
+   "points": [
+    "動画が最長15秒に延長",
+    "会話で背景や照明を修正",
+    "720pは1秒0.07ドル"
+   ],
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "lines": [
+    {
+     "say": "まずはグーグルから。ジェミニ オムニ 一・二 フラッシュが一般提供になりました。",
+     "show": "まずはGoogleから。Gemini Omni 1.2 Flashが一般提供に。"
+    },
+    {
+     "say": "動画が最長十五秒になって、会話でそのまま直せるのがうれしいところです。料金も下がりましたよ。",
+     "show": "動画は最長15秒、会話で直せるのが嬉しい。"
+    }
+   ],
+   "details": [
+    "従来の最長10秒から15秒に延びました。参照画像や短い動画の特徴を保ちます。",
+    "背景・照明・商品などを、会話で段階的に修正できます。",
+    "720pのAPI料金は1秒あたり0.07ドルで、前バージョンから30%引き下げられました。"
+   ],
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+    "site": "Google",
+    "description": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+   }
+  },
+  {
+   "label": "Cursor Voice Chat",
+   "points": [
+    "エージェントと音声で会話",
+    "IDE・Web・iOSで利用可",
+    "音声はGrok Voice"
+   ],
+   "url": "https://cursor.com/changelog/voice-chat",
+   "lines": [
+    {
+     "say": "続いては開発ツールの話題。カーソルに、エージェントと音声で話せるボイスチャットが登場しました。",
+     "show": "続いては開発ツール。Cursorに音声で話せる機能が。"
+    },
+    {
+     "say": "作業しながら、今なにを変えたの、と声で聞けちゃうのが面白いですね。",
+     "show": "作業しながら声で進捗を聞けるのが面白い。"
+    }
+   ],
+   "details": [
+    "開発エージェントとリアルタイムに音声通話できます。",
+    "Agents Window、IDE、Web、iOSで使えます。",
+    "従来の音声入力とは別機能で、音声部分にはGrok Voiceを使用しています。"
+   ],
+   "link": {
+    "url": "https://cursor.com/changelog/voice-chat",
+    "title": "エージェントとのボイスチャット · Cursor",
+    "site": "Cursor",
+    "description": "デスクトップ、ウェブ、iOSで、リアルタイムの音声通話を使ってエージェントと会話できます。",
+    "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png",
+    "icon": "https://cursor.com/marketing-static/icon-192x192-light.png"
+   }
+  },
+  {
+   "label": "PLaMo 3 Translate",
+   "points": [
+    "0.8Bから31Bの4サイズ",
+    "53言語に対応",
+    "ネットなしのスマホで動作"
+   ],
+   "url": "https://www.preferred.jp/ja/news/pr20261105",
+   "lines": [
+    {
+     "say": "お次は国産モデル。プリファードネットワークスが、プラモ スリー トランスレートを公開しました。",
+     "show": "お次は国産。PFNがPLaMo 3 Translateを公開。"
+    },
+    {
+     "say": "五十三言語に対応して、ネットにつながないスマホでも動く小さなモデルまであります。",
+     "show": "53言語対応で、ネットなしのスマホでも動く。"
+    }
+   ],
+   "details": [
+    "0.8B・2B・8B・31Bの4サイズの重みを公開しています。",
+    null,
+    "ネット接続のないスマートフォンでも動く小型モデルのデモを公開しています。"
+   ],
+   "link": {
+    "url": "https://www.preferred.jp/ja/news/pr20261105",
+    "title": "PFN、世界最高水準のAI翻訳がエッジで可能な大規模言語モデル  PLaMo 3 Translate をオープンウェイトで公開 - 株式会社Preferred Networks",
+    "site": "株式会社Preferred Networks",
+    "description": "訂正 (11/05 11:45）: 直近事業年度の収入または売上が10億円未満以下の企業および個人はPLaMoコミュニティライセンスのもと、モデルをダウンロードし、商用・非商用にかかわらずスマートフォン、ノートパソコン、社内サーバーなどのエッジでクラウドを介さずに無償利用することができます。株式会社Preferred",
+    "image": "https://pfn-web-static-contents-kuroco.s3.ap-northeast-1.amazonaws.com/files/topics/1820_ext_5_0.png?response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27680x452.png&response-content-type=image%2Fpng&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAU6WUUW4WRBGES7WL%2F20261106%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T013023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Signature=58f21a583253cbfb948650b5ab5b57167e4890aa2a94f958d5b5879b751d924f",
+    "icon": "https://www.preferred.jp/apple-icon.png?98b0016698193766"
+   }
+  },
+  {
+   "label": "NinjinNormals 2.0",
+   "points": [
+    "Mayaで法線をペイント・転写",
+    "影テクスチャをSDFに変換",
+    "トゥーン表示にも対応"
+   ],
+   "url": "https://cgworld.jp/flashnews/01-202611-NinjinNormals.html",
+   "lines": [
+    {
+     "say": "ここからは三ディーシージーです。マヤ用のツール、ニンジンノーマルズ二・〇を紹介します。",
+     "show": "ここから3DCG。Maya用のNinjinNormals 2.0。"
+    },
+    {
+     "say": "法線を整えて、顔の影をテクスチャにして、エスディーエフマップに変えられるんです。",
+     "show": "顔の影をテクスチャにしてSDFに変えられる。"
+    }
+   ],
+   "details": [
+    null,
+    "ライトリグで陰影を確認し、影テクスチャをベイクしてSDFマップに変換できます。",
+    "Viewport 2.0のトゥーン表示に対応しています。"
+   ],
+   "link": {
+    "url": "https://cgworld.jp/flashnews/01-202611-NinjinNormals.html",
+    "title": "Maya用法線編集ツール「NinjinNormals 2.0」リリース　SDFマップ生成やViewport 2.0トゥーンシェーディングに対応",
+    "site": "CG・映像の専門情報サイト | CGWORLD.jp",
+    "description": "月刊CGWORLDがお届けする、日本で唯一無二のCG＆映像に特化した情報サイトです。3DCG、VFX、撮影、編集などに関する国内外さまざまな話題をお届けします。",
+    "image": "https://cgworld.jp/flashnews/assets_c/2026/11/NinjinNormals-01-thumb-1920x1080-90693.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Bone Dynamics 1.3",
+   "points": [
+    "ワールドコリジョンを搭載",
+    "衣装同士のクロスコリジョン",
+    "髪の揺れに遅延や外力"
+   ],
+   "url": "https://cgworld.jp/special-feature/202611-siliconstudio-bonedynamics.html",
+   "lines": [
+    {
+     "say": "最後も仲間の話題で、シリコンスタジオのボーンダイナミクス一・三です。",
+     "show": "最後も3DCG、Silicon StudioのBone Dynamics 1.3。"
+    },
+    {
+     "say": "髪や衣装がめり込まないよう、衝突と揺れをしっかり制御できます。",
+     "show": "髪や衣装のめり込みを抑え、揺れを制御。"
+    }
+   ],
+   "details": [
+    "周囲の障害物との衝突を扱えます。",
+    "重なった衣装同士の衝突を扱えます。",
+    "ボーン間・フレーム間の補間で、貫通を抑えつつ計算負荷を調整します。"
+   ],
+   "link": {
+    "url": "https://cgworld.jp/special-feature/202611-siliconstudio-bonedynamics.html",
+    "title": "【Unreal Engine対応】破綻を抑え、ねらいどおりに揺らす物理演算プラグイン「Silicon Studio Bone Dynamics」",
+    "site": "CG・映像の専門情報サイト | CGWORLD.jp",
+    "description": "月刊CGWORLDがお届けする、日本で唯一無二のCG＆映像に特化した情報サイトです。3DCG、VFX、撮影、編集などに関する国内外さまざまな話題をお届けします。",
+    "image": "https://cgworld.jp/special-feature/assets_c/2026/10/siliconstudio_top-thumb-1920x1080-90523.jpg",
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目はジェミニ オムニ。静止画から短い動画を作って、背景や演出だけ変えられるのが面白そうです。",
+   "show": "今日の注目はGemini Omni。背景や演出だけ変えられる。"
+  },
+  {
+   "say": "それでは、ものラジオでした。いい土曜日を。",
+   "show": "それでは、ものラジオでした。いい土曜日を。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-07",
+ "lang": "ja",
+ "seconds": 89.36,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.728,
+   "show": "おはようございます、ものラジオです。11月7日、土曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 5.978,
+   "end": 11.431,
+   "show": "今日は動画生成から翻訳、3DCGまで5本です。",
+   "part": 0
+  },
+  {
+   "start": 12.481,
+   "end": 18.445,
+   "show": "まずはGoogleから。Gemini Omni 1.2 Flashが一般提供に。",
+   "part": 1
+  },
+  {
+   "start": 18.695,
+   "end": 25.576,
+   "show": "動画は最長15秒、会話で直せるのが嬉しい。",
+   "part": 1
+  },
+  {
+   "start": 26.626,
+   "end": 33.031,
+   "show": "続いては開発ツール。Cursorに音声で話せる機能が。",
+   "part": 2
+  },
+  {
+   "start": 33.281,
+   "end": 38.176,
+   "show": "作業しながら声で進捗を聞けるのが面白い。",
+   "part": 2
+  },
+  {
+   "start": 39.226,
+   "end": 45.909,
+   "show": "お次は国産。PFNがPLaMo 3 Translateを公開。",
+   "part": 3
+  },
+  {
+   "start": 46.159,
+   "end": 51.879,
+   "show": "53言語対応で、ネットなしのスマホでも動く。",
+   "part": 3
+  },
+  {
+   "start": 52.929,
+   "end": 58.881,
+   "show": "ここから3DCG。Maya用のNinjinNormals 2.0。",
+   "part": 4
+  },
+  {
+   "start": 59.131,
+   "end": 64.549,
+   "show": "顔の影をテクスチャにしてSDFに変えられる。",
+   "part": 4
+  },
+  {
+   "start": 65.599,
+   "end": 70.262,
+   "show": "最後も3DCG、Silicon StudioのBone Dynamics 1.3。",
+   "part": 5
+  },
+  {
+   "start": 70.512,
+   "end": 75.094,
+   "show": "髪や衣装のめり込みを抑え、揺れを制御。",
+   "part": 5
+  },
+  {
+   "start": 76.144,
+   "end": 84.07,
+   "show": "今日の注目はGemini Omni。背景や演出だけ変えられる。",
+   "part": 6
+  },
+  {
+   "start": 84.32,
+   "end": 87.311,
+   "show": "それでは、ものラジオでした。いい土曜日を。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 12.481
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 12.481,
+   "end": 26.626
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 26.626,
+   "end": 39.226
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 39.226,
+   "end": 52.929
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 52.929,
+   "end": 65.599
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 65.599,
+   "end": 76.144
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 76.144,
+   "end": 89.361
+  }
+ ],
+ "made_at": "2026-11-07T06:51:40"
+}

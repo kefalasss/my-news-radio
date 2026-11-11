@@ -1,0 +1,327 @@
+{
+ "title": "Talk to Your Robot to Change Its Moves! New LeRobot Release",
+ "opening": [
+  {
+   "say": "Good morning, and welcome to Mono Radio! It's Sunday morning, November eighth, and here's your news.",
+   "show": "Good morning, and welcome to Mono Radio! It's Sunday, November 8."
+  },
+  {
+   "say": "We've got five stories today, from robots to open models to a metal three D printer.",
+   "show": "Five stories today, from robots to a metal 3D printer."
+  }
+ ],
+ "news": [
+  {
+   "label": "LeRobot v0.7.0",
+   "points": [
+    "Switch tasks by voice, no stopping",
+    "Heavy inference goes to a GPU server",
+    "New VLA models and more added"
+   ],
+   "details": [
+    "Use /subtask to switch tasks, /vqa to ask questions about the camera view, and /autosteer to set goals.",
+    "Large action models run on a GPU server, so the robot can focus on its cameras and motor control.",
+    "Streaming dataset training and new VLA and World Action Models have also been added."
+   ],
+   "lines": [
+    {
+     "say": "First up, LeRobot from Hugging Face, now at version zero point seven point zero. You can switch tasks and ask questions in plain language without stopping the robot.",
+     "show": "First up, LeRobot v0.7.0 from Hugging Face."
+    },
+    {
+     "say": "I love that the heavy models can be handed off to a GPU server.",
+     "show": "Heavy models can be handed off to a GPU server."
+    }
+   ],
+   "url": "https://huggingface.co/blog/lerobot/lerobot-release-v070",
+   "link": {
+    "url": "https://huggingface.co/blog/lerobot/lerobot-release-v070",
+    "title": "LeRobot v0.7.0: From Terabytes to Prompting Robots",
+    "site": "huggingface.co",
+    "description": "A Blog post by LeRobot on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/67b124b081d4eae18b957606/tzy1sVbCrMtlZ-Mafmm_3.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Harness Adapters Released",
+   "points": [
+    "Small LoRA built for each environment",
+    "Tool calls get checked",
+    "Fewer calls, accuracy maintained"
+   ],
+   "details": [
+    "They're built with reinforcement learning for each pairing of agent environment and model, such as pi, OpenCode, and Hermes.",
+    "Tool calls are checked with safeagents. Targets include LFM2.5-24B-A2B and others.",
+    "Early evaluations suggest fewer tool calls while accuracy holds steady or improves."
+   ],
+   "lines": [
+    {
+     "say": "Next, more from Hugging Face. A new method builds a small LoRA adapter for each agent environment.",
+     "show": "More from Hugging Face: a small LoRA for each environment."
+    },
+    {
+     "say": "It's exciting that it could cut tool calls while keeping accuracy up.",
+     "show": "It could cut tool calls while keeping accuracy up."
+    }
+   ],
+   "url": "https://huggingface.co/blog/harness-hub/harness-adapters",
+   "link": {
+    "url": "https://huggingface.co/blog/harness-hub/harness-adapters",
+    "title": "Harness adapters: Safe RL for efficient agentic development",
+    "site": "huggingface.co",
+    "description": "A Blog post by harness-hub on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/62441d1d9fdefb55a0b7d12c/1PmNuJalQAQOxeEfF7zyF.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Open LLMs on Japan-Based GPUs",
+   "points": [
+    "API running on GPUs in Japan",
+    "Launches with DeepSeek-V4.1-Flash",
+    "48 yen per million input tokens"
+   ],
+   "details": [
+    "Fixstars and FastMetal have launched it. Processing stays in Japan, and input and output data are not stored.",
+    "The first model is DeepSeek-V4.1-Flash-1017, available through an OpenAI-compatible format.",
+    "Prices excluding tax are 48 yen for input and 192 yen for output per million tokens, as of the announcement."
+   ],
+   "lines": [
+    {
+     "say": "Now for some news from Japan. Fixstars has launched an API that runs open-weight LLMs on GPUs located in Japan.",
+     "show": "Fixstars has launched an API running on GPUs in Japan."
+    },
+    {
+     "say": "It's OpenAI compatible, so you can try it just by changing the endpoint.",
+     "show": "It's OpenAI compatible, so just change the endpoint."
+    }
+   ],
+   "url": "https://news.fixstars.com/7564/",
+   "link": {
+    "url": "https://news.fixstars.com/7564/",
+    "title": "フィックスターズとファストメタル、国内GPUサーバーで高速推論AIサービスの提供を開始 - フィックスターズの推論最適化技術を適用。APIで登録当日から利用可能 | ニュース一覧 - 株式会社フィックスターズ",
+    "site": "ニュース一覧 - 株式会社フィックスターズ",
+    "description": "パフォーマンスエンジニアリング技術のリーディングカンパニーである株式会社フィックスターズ（東証プライム：3687、代表取締役社長 CEO：三木 聡）と、AIゲートウェイ「FastMetal（ファストメタル）」を運営する株式会社国際調達情報（本社：東京都千代田区、代表取締役：ダーシャン・ナドー、以下「国際調達情報」）は、2026年11月5日より、FastMetalを経由し、国内に設置されたGPUサー",
+    "image": "https://news.fixstars.com/wp-content/uploads/2026/05/og-home.png",
+    "icon": "https://news.fixstars.com/wp-content/uploads/2022/01/cropped-icon-512-192x192.png"
+   }
+  },
+  {
+   "label": "GPT-6 Cyber",
+   "points": [
+    "Built to find and verify vulnerabilities",
+    "ExploitGym score of 48.5%",
+    "81 Firefox vulnerabilities found"
+   ],
+   "details": [
+    "It's a vulnerability research model trained to work within authorized boundaries.",
+    "That's up from the 32.1% scored by GPT-5.6 Cyber.",
+    "OpenAI says it helped find 81 previously unknown, high-severity vulnerabilities and draft candidate fixes."
+   ],
+   "lines": [
+    {
+     "say": "Back overseas, OpenAI has introduced GPT-six Cyber.",
+     "show": "Back overseas, OpenAI introduces GPT-6 Cyber."
+    },
+    {
+     "say": "It specializes in finding and verifying vulnerabilities, and reportedly uncovered eighty-one previously unknown ones in Firefox.",
+     "show": "It reportedly found 81 previously unknown Firefox vulnerabilities."
+    }
+   ],
+   "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+   "link": {
+    "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+    "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+    "site": "SecurityWeek",
+    "description": "GPT-6 Cyber scored 48.5% on ExploitGym, found 81 high-severity Firefox flaws and stayed in scope 99.93% of the time in OpenAI’s tests.",
+    "image": "https://www.securityweek.com/wp-content/uploads/2026/11/OpenAI-GPT.jpeg",
+    "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-192x192.jpeg",
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+    "error": "HTTPError",
+    "status": 403
+   }
+  },
+  {
+   "label": "Phase3D Layer-by-Layer Inspection",
+   "points": [
+    "Measures each layer during the build",
+    "Dedicated unit designed to be embedded",
+    "Made for LPBF printing"
+   ],
+   "details": [
+    "Using structured light, it measures the build surface layer by layer and quantifies changes in the powder bed, plus the position and size of bumps and anomalies.",
+    "It has a built-in projector, GPU, and storage, plus four trigger inputs supporting 5 to 24 volts.",
+    null
+   ],
+   "lines": [
+    {
+     "say": "And finally, some metal three D printing news. Phase three D has announced a device that inspects each layer as it's printed.",
+     "show": "Finally, metal 3D printing: a layer-by-layer inspection device."
+    },
+    {
+     "say": "Catching problems mid-build instead of after the fact is a really neat idea.",
+     "show": "Catching problems mid-build is a really neat idea."
+    }
+   ],
+   "url": "https://www.phase-3d.com/blogs/resources/news-next-generation-fringe-inspection-oem-integration",
+   "link": {
+    "url": "https://www.phase-3d.com/blogs/resources/news-next-generation-fringe-inspection-oem-integration",
+    "title": "Phase3D Unveils Next-Generation Fringe Inspection for LPBF",
+    "site": "Phase3D",
+    "description": "A multi-year development project delivers purpose-built hardware for laser powder bed fusion and a new foundation for deployment at scale",
+    "image": "http://www.phase-3d.com/cdn/shop/articles/ProjectBlackX8.png?v=1793110836",
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's highlight is LeRobot. Building robots you can correct with your words is becoming more within reach.",
+   "show": "Today's highlight is LeRobot. Fixing moves with words is getting closer."
+  },
+  {
+   "say": "That's all from Mono Radio. See you tomorrow!",
+   "show": "That's all from Mono Radio. See you tomorrow!"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-08",
+ "lang": "en",
+ "seconds": 94.71,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.317,
+   "show": "Good morning, and welcome to Mono Radio! It's Sunday, November 8.",
+   "part": 0
+  },
+  {
+   "start": 6.567,
+   "end": 11.901,
+   "show": "Five stories today, from robots to a metal 3D printer.",
+   "part": 0
+  },
+  {
+   "start": 12.951,
+   "end": 23.66,
+   "show": "First up, LeRobot v0.7.0 from Hugging Face.",
+   "part": 1
+  },
+  {
+   "start": 23.91,
+   "end": 27.643,
+   "show": "Heavy models can be handed off to a GPU server.",
+   "part": 1
+  },
+  {
+   "start": 28.693,
+   "end": 35.477,
+   "show": "More from Hugging Face: a small LoRA for each environment.",
+   "part": 2
+  },
+  {
+   "start": 35.727,
+   "end": 39.439,
+   "show": "It could cut tool calls while keeping accuracy up.",
+   "part": 2
+  },
+  {
+   "start": 40.489,
+   "end": 49.471,
+   "show": "Fixstars has launched an API running on GPUs in Japan.",
+   "part": 3
+  },
+  {
+   "start": 49.721,
+   "end": 54.371,
+   "show": "It's OpenAI compatible, so just change the endpoint.",
+   "part": 3
+  },
+  {
+   "start": 55.421,
+   "end": 59.581,
+   "show": "Back overseas, OpenAI introduces GPT-6 Cyber.",
+   "part": 4
+  },
+  {
+   "start": 59.831,
+   "end": 68.215,
+   "show": "It reportedly found 81 previously unknown Firefox vulnerabilities.",
+   "part": 4
+  },
+  {
+   "start": 69.265,
+   "end": 76.988,
+   "show": "Finally, metal 3D printing: a layer-by-layer inspection device.",
+   "part": 5
+  },
+  {
+   "start": 77.238,
+   "end": 82.017,
+   "show": "Catching problems mid-build is a really neat idea.",
+   "part": 5
+  },
+  {
+   "start": 83.067,
+   "end": 89.701,
+   "show": "Today's highlight is LeRobot. Fixing moves with words is getting closer.",
+   "part": 6
+  },
+  {
+   "start": 89.951,
+   "end": 92.661,
+   "show": "That's all from Mono Radio. See you tomorrow!",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 12.951
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 12.951,
+   "end": 28.693
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 28.693,
+   "end": 40.489
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 40.489,
+   "end": 55.421
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 55.421,
+   "end": 69.265
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 69.265,
+   "end": 83.067
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 83.067,
+   "end": 94.711
+  }
+ ],
+ "made_at": "2026-11-08T06:13:10"
+}

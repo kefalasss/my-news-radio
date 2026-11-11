@@ -1,0 +1,327 @@
+{
+ "title": "ロボットに話しかけて動作を変更！レロボット新版",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月八日、日曜日の朝のニュースです。",
+   "show": "おはようございます、ものラジオです。11月8日、日曜日の朝のニュース。"
+  },
+  {
+   "say": "今日は五本、ロボットからオープンモデル、金属三ディープリンターまでお届けします。",
+   "show": "今日は5本、ロボットから金属3Dプリンターまで。"
+  }
+ ],
+ "news": [
+  {
+   "label": "LeRobot v0.7.0",
+   "points": [
+    "停止せず言葉で作業を切替",
+    "重い推論はGPUサーバーへ",
+    "新しいVLAなども追加"
+   ],
+   "url": "https://huggingface.co/blog/lerobot/lerobot-release-v070",
+   "lines": [
+    {
+     "say": "まずはハギングフェイスのレロボット、バージョン零点七。ロボットを止めずに、言葉で作業の切り替えや質問ができるようになりました。",
+     "show": "まずはHugging FaceのLeRobot v0.7.0。"
+    },
+    {
+     "say": "重いモデルはジーピーユーサーバーに任せられるのも嬉しいところです。",
+     "show": "重いモデルはGPUサーバーに任せられます。"
+    }
+   ],
+   "details": [
+    "/subtask で作業の切り替え、/vqa でカメラ映像への質問、/autosteer で目標の指定ができます。",
+    "大きな行動モデルはGPUサーバー側で推論し、ロボット側はカメラとモーター制御に集中できます。",
+    "データセットのストリーミング学習や、新しいVLA・World Action Modelも追加されています。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/blog/lerobot/lerobot-release-v070",
+    "title": "LeRobot v0.7.0: From Terabytes to Prompting Robots",
+    "site": "huggingface.co",
+    "description": "A Blog post by LeRobot on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/67b124b081d4eae18b957606/tzy1sVbCrMtlZ-Mafmm_3.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Harness adapters公開",
+   "points": [
+    "環境ごとに小型LoRAを作成",
+    "ツール呼び出しを検査",
+    "呼び出し減と正答率維持"
+   ],
+   "url": "https://huggingface.co/blog/harness-hub/harness-adapters",
+   "lines": [
+    {
+     "say": "続いてもハギングフェイス。エージェントの環境ごとに小さなローラアダプターを作る手法が公開されました。",
+     "show": "続いてもHugging Face。環境別の小さなLoRA。"
+    },
+    {
+     "say": "ツール呼び出しを減らしつつ正答率を保てそうなのが面白いです。",
+     "show": "ツール呼び出しを減らせそうなのが面白い。"
+    }
+   ],
+   "details": [
+    "pi、OpenCode、Hermesなど、エージェント環境とモデルの組ごとに強化学習で作ります。",
+    "ツール呼び出しはsafeagentsで検査します。対象はLFM2.5-24B-A2Bなどです。",
+    "初期の評価では、正答率を維持または改善しつつツール呼び出しが減る兆候が出ています。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/blog/harness-hub/harness-adapters",
+    "title": "Harness adapters: Safe RL for efficient agentic development",
+    "site": "huggingface.co",
+    "description": "A Blog post by harness-hub on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/62441d1d9fdefb55a0b7d12c/1PmNuJalQAQOxeEfF7zyF.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "国内GPUでオープンLLM",
+   "points": [
+    "国内GPUで推論するAPI",
+    "初期はDeepSeek-V4.1-Flash",
+    "100万トークン入力48円"
+   ],
+   "url": "https://news.fixstars.com/7564/",
+   "lines": [
+    {
+     "say": "お次は国内の話題。フィックスターズが、国内のジーピーユーでオープンウェイトのエルエルエムを使えるエーピーアイを始めました。",
+     "show": "お次は国内。フィックスターズが国内GPUのAPIを開始。"
+    },
+    {
+     "say": "オープンエーアイ互換なので、接続先を変えるだけで試せます。",
+     "show": "OpenAI互換なので、接続先を変えるだけ。"
+    }
+   ],
+   "details": [
+    "フィックスターズとFastMetalが提供開始。国内処理で、入出力データは保存しない運用です。",
+    "初期モデルはDeepSeek-V4.1-Flash-1017で、OpenAI互換形式から利用できます。",
+    "税別で入力48円、出力192円（100万トークン当たり、発表時点）です。"
+   ],
+   "link": {
+    "url": "https://news.fixstars.com/7564/",
+    "title": "フィックスターズとファストメタル、国内GPUサーバーで高速推論AIサービスの提供を開始 - フィックスターズの推論最適化技術を適用。APIで登録当日から利用可能 | ニュース一覧 - 株式会社フィックスターズ",
+    "site": "ニュース一覧 - 株式会社フィックスターズ",
+    "description": "パフォーマンスエンジニアリング技術のリーディングカンパニーである株式会社フィックスターズ（東証プライム：3687、代表取締役社長 CEO：三木 聡）と、AIゲートウェイ「FastMetal（ファストメタル）」を運営する株式会社国際調達情報（本社：東京都千代田区、代表取締役：ダーシャン・ナドー、以下「国際調達情報」）は、2026年11月5日より、FastMetalを経由し、国内に設置されたGPUサー",
+    "image": "https://news.fixstars.com/wp-content/uploads/2026/05/og-home.png",
+    "icon": "https://news.fixstars.com/wp-content/uploads/2022/01/cropped-icon-512-192x192.png"
+   }
+  },
+  {
+   "label": "GPT-6 Cyber",
+   "points": [
+    "脆弱性の検出・検証に特化",
+    "ExploitGym 48.5%",
+    "Firefoxの脆弱性81件"
+   ],
+   "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+   "lines": [
+    {
+     "say": "海外に戻って、オープンエーアイからジーピーティーシックス サイバーが登場です。",
+     "show": "海外に戻って、OpenAIのGPT-6 Cyber。"
+    },
+    {
+     "say": "脆弱性の発見と検証に特化していて、ファイヤーフォックスの未発見の脆弱性も八十一件見つけたそうです。",
+     "show": "Firefoxの未発見の脆弱性も81件見つけたそうです。"
+    }
+   ],
+   "details": [
+    "許可された範囲に沿って調査するよう訓練された、脆弱性調査向けモデルです。",
+    "GPT-5.6 Cyberの32.1%から向上しています。",
+    "未発見だった高深刻度の脆弱性81件の発見や修正候補作成に寄与したと説明しています。"
+   ],
+   "link": {
+    "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+    "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
+    "site": "SecurityWeek",
+    "description": "GPT-6 Cyber scored 48.5% on ExploitGym, found 81 high-severity Firefox flaws and stayed in scope 99.93% of the time in OpenAI’s tests.",
+    "image": "https://www.securityweek.com/wp-content/uploads/2026/11/OpenAI-GPT.jpeg",
+    "icon": "https://www.securityweek.com/wp-content/uploads/2023/01/cropped-SecurityWeek-Icon-192x192.jpeg",
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+    "error": "HTTPError",
+    "status": 403
+   }
+  },
+  {
+   "label": "Phase3D 層別検査装置",
+   "points": [
+    "造形中に層ごとに計測",
+    "組み込み想定の専用機",
+    "LPBF方式向け"
+   ],
+   "url": "https://www.phase-3d.com/blogs/resources/news-next-generation-fringe-inspection-oem-integration",
+   "lines": [
+    {
+     "say": "最後は金属三ディープリンターの話。フェーズスリーディーが、造形中の層ごとに検査する装置を発表しました。",
+     "show": "最後は金属3Dプリンターの話。層ごとの検査装置。"
+    },
+    {
+     "say": "完成後ではなく造形の途中で異常に気づける発想が面白いですね。",
+     "show": "造形の途中で異常に気づける発想が面白い。"
+    }
+   ],
+   "details": [
+    "構造化光で造形面をレイヤーごとに測り、粉末床の変化や突起・異常の位置と大きさを数値化します。",
+    "専用プロジェクターやGPU・記憶装置を内蔵し、5〜24V対応の4系統のトリガー入力を備えます。",
+    null
+   ],
+   "link": {
+    "url": "https://www.phase-3d.com/blogs/resources/news-next-generation-fringe-inspection-oem-integration",
+    "title": "Phase3D Unveils Next-Generation Fringe Inspection for LPBF",
+    "site": "Phase3D",
+    "description": "A multi-year development project delivers purpose-built hardware for laser powder bed fusion and a new foundation for deployment at scale",
+    "image": "http://www.phase-3d.com/cdn/shop/articles/ProjectBlackX8.png?v=1793110836",
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目はレロボット。言葉で動きを直せるロボットづくりが身近になりそうですね。",
+   "show": "今日の注目はLeRobot。言葉で動きを直せそう。"
+  },
+  {
+   "say": "以上、ものラジオでした。また明日。",
+   "show": "以上、ものラジオでした。また明日。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-08",
+ "lang": "ja",
+ "seconds": 90.74,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.366,
+   "show": "おはようございます、ものラジオです。11月8日、日曜日の朝のニュース。",
+   "part": 0
+  },
+  {
+   "start": 6.616,
+   "end": 11.953,
+   "show": "今日は5本、ロボットから金属3Dプリンターまで。",
+   "part": 0
+  },
+  {
+   "start": 13.003,
+   "end": 21.823,
+   "show": "まずはHugging FaceのLeRobot v0.7.0。",
+   "part": 1
+  },
+  {
+   "start": 22.073,
+   "end": 26.214,
+   "show": "重いモデルはGPUサーバーに任せられます。",
+   "part": 1
+  },
+  {
+   "start": 27.264,
+   "end": 33.68,
+   "show": "続いてもHugging Face。環境別の小さなLoRA。",
+   "part": 2
+  },
+  {
+   "start": 33.93,
+   "end": 38.164,
+   "show": "ツール呼び出しを減らせそうなのが面白い。",
+   "part": 2
+  },
+  {
+   "start": 39.214,
+   "end": 47.383,
+   "show": "お次は国内。フィックスターズが国内GPUのAPIを開始。",
+   "part": 3
+  },
+  {
+   "start": 47.633,
+   "end": 51.82,
+   "show": "OpenAI互換なので、接続先を変えるだけ。",
+   "part": 3
+  },
+  {
+   "start": 52.87,
+   "end": 58.056,
+   "show": "海外に戻って、OpenAIのGPT-6 Cyber。",
+   "part": 4
+  },
+  {
+   "start": 58.306,
+   "end": 65.674,
+   "show": "Firefoxの未発見の脆弱性も81件見つけたそうです。",
+   "part": 4
+  },
+  {
+   "start": 66.724,
+   "end": 74.092,
+   "show": "最後は金属3Dプリンターの話。層ごとの検査装置。",
+   "part": 5
+  },
+  {
+   "start": 74.342,
+   "end": 78.959,
+   "show": "造形の途中で異常に気づける発想が面白い。",
+   "part": 5
+  },
+  {
+   "start": 80.009,
+   "end": 85.764,
+   "show": "今日の注目はLeRobot。言葉で動きを直せそう。",
+   "part": 6
+  },
+  {
+   "start": 86.014,
+   "end": 88.692,
+   "show": "以上、ものラジオでした。また明日。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 13.003
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 13.003,
+   "end": 27.264
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 27.264,
+   "end": 39.214
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 39.214,
+   "end": 52.87
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 52.87,
+   "end": 66.724
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 66.724,
+   "end": 80.009
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 80.009,
+   "end": 90.742
+  }
+ ],
+ "made_at": "2026-11-08T06:12:22"
+}

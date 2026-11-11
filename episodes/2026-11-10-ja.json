@@ -1,0 +1,340 @@
+{
+ "title": "AIが基板から筐体まで設計！ファブル5.2登場",
+ "opening": [
+  {
+   "say": "十一月十日、火曜日の朝です。ものラジオです。",
+   "show": "11月10日、火曜日の朝です。ものラジオです。"
+  },
+  {
+   "say": "今日はエーアイとスリーディーのニュースを、五本お届けします。",
+   "show": "今日はAIと3Dのニュースを、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Claude Fable 5.2発表",
+   "points": [
+    "基板・筐体・FWを一貫設計",
+    "試作品3種を製作",
+    "電気的な設計変更なしで動作"
+   ],
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "lines": [
+    {
+     "say": "まずは、アンソロピックの新モデル、ファブルごてんにとミソスごてんにの発表です。",
+     "show": "まずはAnthropicの新モデル、Fable 5.2と"
+    },
+    {
+     "say": "なんとエーアイが、基板から筐体、ファームウェアまで通しで設計して、試作品を三つも作ったそうです。",
+     "show": "AIが基板から筐体まで通しで設計しました。"
+    }
+   ],
+   "details": [
+    "電子部品選定、4層PCBの配線、3Dプリント筐体のCAD設計、ソフトウェア作成までClaudeが行いました。",
+    "音声アシスタント、USBスピーカーフォン、携帯型バーチャルペットの3種類です。製造・組み立ては企業の協力を受けています。",
+    "メーカーによる事前試験の結果で、どんな回路でも無検証で量産できるという意味ではありません。"
+   ],
+   "link": {
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+    "site": "www.anthropic.com",
+    "description": "Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges. Fable 5.2 sets a new bar in coding, finance, and the sciences.",
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg",
+    "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "MIT WorldParticle",
+   "points": [
+    "砂も液体も共通AIで",
+    "6種類の物理現象に対応",
+    "タンパク質は約100倍速"
+   ],
+   "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+   "lines": [
+    {
+     "say": "続いては、エムアイティーのワールドパーティクルです。",
+     "show": "続いては、MITのWorldParticleです。"
+    },
+    {
+     "say": "砂も液体もタンパク質も、ひとつのエーアイでシミュレーションしちゃいます。",
+     "show": "砂も液体もタンパク質も、ひとつのAIで。"
+    },
+    {
+     "say": "タンパク質では、約百倍の速さだそうですよ。",
+     "show": "タンパク質では約100倍の速さだそうです。"
+    }
+   ],
+   "details": [
+    "材料を3D粒子の集合として表し、各粒子の次の動きをTransformerで予測します。",
+    "従来は別々のソルバーが必要だった流体、砂、変形体、タンパク質などを共通のアーキテクチャで扱います。",
+    "従来の数値シミュレーションと比べた研究チームの報告です。現段階では研究成果です。"
+   ],
+   "link": {
+    "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+    "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+    "site": "MIT News | Massachusetts Institute of Technology",
+    "description": "WorldParticle is a physical world model that simulates many different physical processes — from flowing water to folding proteins — in one unified system, instead of using a separate, hand-coded simul",
+    "image": "https://news.mit.edu/sites/default/files/images/202611/MIT-WorldParticle-01-Press.jpg",
+    "icon": "https://news.mit.edu/themes/mit/assets/img/favicon/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "MIT・NYU FLEX",
+   "points": [
+    "言外の意図までロボが推測",
+    "PCを守ればスマホも避ける",
+    "処理は約5秒"
+   ],
+   "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+   "lines": [
+    {
+     "say": "もうひとつエムアイティーから、ロボットのフレックスです。",
+     "show": "もうひとつMITから、ロボットのFLEXです。"
+    },
+    {
+     "say": "ノートパソコンにこぼさないでと言うだけで、近くのスマホまで避けてくれます。",
+     "show": "PCにこぼさないでと言うだけで、スマホも避けます。"
+    }
+   ],
+   "details": [
+    "自然言語の注意から、人が明示していない意図まで推測して行動計画を修正します。",
+    "「ノートPCにコーヒーをこぼさないで」という指示から、近くのスマートフォンも避けるよう経路を変更します。",
+    "Add／Generalize／Maskの3段階で判断を更新します。評価はシミュレーションで、実機はこれからです。"
+   ],
+   "link": {
+    "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+    "title": "AI-assisted learning platform helps robots reason beyond literal commands",
+    "site": "MIT News | Massachusetts Institute of Technology",
+    "description": "FLEX, a new AI-assisted learning platform developed by MIT engineers, enables motion-planning robots to follow a human’s explicit instructions while also drawing larger generalizations that help to im",
+    "image": "https://news.mit.edu/sites/default/files/images/202611/MIT-FLEX-01-press.jpg",
+    "icon": "https://news.mit.edu/themes/mit/assets/img/favicon/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "キヤノン MREAL",
+   "points": [
+    "3DCGを実寸大で遠隔共有",
+    "11/11から一般向け初体験",
+    "専門家以外も参加しやすい"
+   ],
+   "url": "https://cgworld.jp/flashnews/02-2611-mrealcollaborator.html",
+   "lines": [
+    {
+     "say": "日本からは、キヤノンのエムリアル コラボレーターです。",
+     "show": "日本からは、キヤノンのMREAL Collaborator。"
+    },
+    {
+     "say": "スリーディーシージーを実寸大で遠隔共有できるエックスアールソフトで、十一日から一般向けに初体験できます。",
+     "show": "実寸大の3DCGを共有できるXRソフトです。"
+    }
+   ],
+   "details": [
+    "OpenXRに対応し、複数のXRデバイスで実寸大の3DCGを遠隔地間で共有できます。",
+    "11月11〜13日の「産業交流展2026」で、一般向けに初めて体験できます。",
+    "直感的なUIを重視していて、設計レビューに参加しやすい構成です。"
+   ],
+   "link": {
+    "url": "https://cgworld.jp/flashnews/02-2611-mrealcollaborator.html",
+    "title": "キヤノン、製造業向けXRコラボレーションソフト「MREAL Collaborator」の体験機会を11/11（水）からの「産業交流展2026」で提供",
+    "site": "CG・映像の専門情報サイト | CGWORLD.jp",
+    "description": "月刊CGWORLDがお届けする、日本で唯一無二のCG＆映像に特化した情報サイトです。3DCG、VFX、撮影、編集などに関する国内外さまざまな話題をお届けします。",
+    "image": "https://cgworld.jp/flashnews/assets_c/2026/11/13980-1208-2acb188829b86358cb210330ca5e9304-1920x1280-thumb-1000x563-90748.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "布型で省材料の梁",
+   "points": [
+    "布を縫った型枠で造形",
+    "コンクリート約3分の1",
+    "特殊な機械が不要"
+   ],
+   "url": "https://sustainability.mit.edu/article/fabric-molds-could-bring-material-saving-concrete-beams-within-reach",
+   "lines": [
+    {
+     "say": "最後は、布を縫った型で作るコンクリートの梁です。",
+     "show": "最後は、布を縫った型で作るコンクリート梁。"
+    },
+    {
+     "say": "コンクリートの量が約三分の一になるそうで、特殊な機械がいらないのが面白いところです。",
+     "show": "量は約3分の1で、特殊な機械も不要です。"
+    }
+   ],
+   "details": [
+    "トポロジー最適化された複雑形状のコンクリート梁を、裁断・縫製した布製の型枠で造形します。",
+    "長さ約3mの試験体で、従来設計と比べコンクリートが約3分の1、鉄筋が約半分でした。",
+    "3DプリンターやCNCを使わず、比較的安価な布型で実物にできます。現時点では研究試験体です。"
+   ],
+   "link": {
+    "url": "https://news.mit.edu/2026/fabric-molds-could-bring-material-saving-concrete-beams-within-reach-1106",
+    "title": "Fabric molds could bring material-saving concrete beams within reach",
+    "site": "MIT News | Massachusetts Institute of Technology",
+    "description": "MIT engineers poured concrete into a sewn fabric mold to build a beam using just one-third the amount of concrete and half as much steel as a conventional beam, a low-tech approach that could make low",
+    "image": "https://news.mit.edu/sites/default/files/images/202610/MIT-CEE-concrete-beams.jpg",
+    "icon": "https://news.mit.edu/themes/mit/assets/img/favicon/apple-touch-icon.png",
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://sustainability.mit.edu/article/fabric-molds-could-bring-material-saving-concrete-beams-within-reach",
+    "title": "Fabric molds could bring material-saving concrete beams within reach | MIT Sustainability",
+    "site": "sustainability.mit.edu",
+    "description": "MIT engineers cast a concrete beam using a sewn fabric mold with one-third the amount of concrete and half as much steel as a conventional beam.",
+    "image": null,
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、エーアイが回路から筐体まで通しで設計したファブルごてんに。",
+   "show": "今日の注目は、AIが回路から筐体まで設計したFable 5.2。"
+  },
+  {
+   "say": "試作の流れが変わりそうでワクワクしますね。それではまた、ものラジオでした。",
+   "show": "試作の流れが変わりそう。ものラジオでした。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-10",
+ "lang": "ja",
+ "seconds": 80.4,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 4.23,
+   "show": "11月10日、火曜日の朝です。ものラジオです。",
+   "part": 0
+  },
+  {
+   "start": 4.48,
+   "end": 8.087,
+   "show": "今日はAIと3Dのニュースを、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 9.137,
+   "end": 14.334,
+   "show": "まずはAnthropicの新モデル、Fable 5.2と",
+   "part": 1
+  },
+  {
+   "start": 14.584,
+   "end": 21.534,
+   "show": "AIが基板から筐体まで通しで設計しました。",
+   "part": 1
+  },
+  {
+   "start": 22.584,
+   "end": 25.517,
+   "show": "続いては、MITのWorldParticleです。",
+   "part": 2
+  },
+  {
+   "start": 25.767,
+   "end": 30.291,
+   "show": "砂も液体もタンパク質も、ひとつのAIで。",
+   "part": 2
+  },
+  {
+   "start": 30.541,
+   "end": 34.066,
+   "show": "タンパク質では約100倍の速さだそうです。",
+   "part": 2
+  },
+  {
+   "start": 35.116,
+   "end": 38.398,
+   "show": "もうひとつMITから、ロボットのFLEXです。",
+   "part": 3
+  },
+  {
+   "start": 38.648,
+   "end": 43.381,
+   "show": "PCにこぼさないでと言うだけで、スマホも避けます。",
+   "part": 3
+  },
+  {
+   "start": 44.431,
+   "end": 48.073,
+   "show": "日本からは、キヤノンのMREAL Collaborator。",
+   "part": 4
+  },
+  {
+   "start": 48.323,
+   "end": 55.691,
+   "show": "実寸大の3DCGを共有できるXRソフトです。",
+   "part": 4
+  },
+  {
+   "start": 56.741,
+   "end": 60.301,
+   "show": "最後は、布を縫った型で作るコンクリート梁。",
+   "part": 5
+  },
+  {
+   "start": 60.551,
+   "end": 66.7,
+   "show": "量は約3分の1で、特殊な機械も不要です。",
+   "part": 5
+  },
+  {
+   "start": 67.75,
+   "end": 72.82,
+   "show": "今日の注目は、AIが回路から筐体まで設計したFable 5.2。",
+   "part": 6
+  },
+  {
+   "start": 73.07,
+   "end": 78.349,
+   "show": "試作の流れが変わりそう。ものラジオでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 9.137
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 9.137,
+   "end": 22.584
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 22.584,
+   "end": 35.116
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 35.116,
+   "end": 44.431
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 44.431,
+   "end": 56.741
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 56.741,
+   "end": 67.75
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 67.75,
+   "end": 80.399
+  }
+ ],
+ "made_at": "2026-11-10T06:31:56"
+}

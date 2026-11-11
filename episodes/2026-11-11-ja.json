@@ -1,0 +1,351 @@
+{
+ "title": "Blender 5.3、Gaussian Splatting標準対応",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月十一日、水曜日の朝です。",
+   "show": "おはようございます、ものラジオです。11月11日、水曜日の朝です。"
+  },
+  {
+   "say": "今日はブレンダーからスリーディープリンターまで、五本をお届けします。",
+   "show": "今日はBlenderから3Dプリンターまで、5本をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Blender 5.3 正式リリース",
+   "points": [
+    "Gaussian Splatting標準対応",
+    "Cyclesに分散表現を追加",
+    "EEVEEに新ノード追加"
+   ],
+   "url": "https://www.blender.org/press/blender-5-3-release/",
+   "lines": [
+    {
+     "say": "まずはブレンダー、ごてんさんが正式リリースです。",
+     "show": "まずはBlender、5.3が正式リリースです。"
+    },
+    {
+     "say": "ガウシアンスプラッティングが標準で読み込めて、ジオメトリノードで編集もできるんです。",
+     "show": "Gaussian Splattingが標準で読み込めて、Geometry Nodesで編集もできるんです。"
+    },
+    {
+     "say": "写真から作った立体空間を、制作に取り込みやすくなりますよ。",
+     "show": "写真から作った立体空間を、制作に取り込みやすくなりますよ。"
+    }
+   ],
+   "details": [
+    "PLY・SPZ形式から読み込み、Geometry Nodesで編集し、EEVEEやCyclesでレンダリングできます。",
+    "ガラスや宝石の虹色の分散表現ができるようになりました。",
+    "マテリアルの光への反応を制御する新ノードが加わりました。動画編集にはリップル編集なども追加されています。"
+   ],
+   "link": {
+    "url": "https://www.blender.org/press/blender-5-3-release/",
+    "title": "Blender 5.3 Release — Blender",
+    "site": "Blender",
+    "description": "Blender 5.2 LTS brings node-powered physics, remote access to asset libraries, major rendering advancements and more with 2 years of LTS updates.",
+    "image": "https://www.blender.org/wp-content/uploads/2026/07/splash-overgrown-480x270.webp",
+    "icon": "https://www.blender.org/wp-content/themes/bthree/assets/icons/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "Gemini 4 Carbon登場",
+   "points": [
+    "高性能モデルの提供開始",
+    "/swarmをプレビュー公開",
+    "建築図面から3D空間を再構築"
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+   "lines": [
+    {
+     "say": "続いて、グーグルのジェミニフォーカーボンが提供開始です。",
+     "show": "続いて、GoogleのGemini 4 Carbonが提供開始です。"
+    },
+    {
+     "say": "複数のエーアイエージェントが連携するスォーム機能も、プレビューで登場しました。",
+     "show": "複数のAIエージェントが連携する/swarm機能も、プレビューで登場しました。"
+    }
+   ],
+   "details": [
+    "複雑なコーディング、長時間の推論、科学研究に重点を置いたモデルです。",
+    "Google Antigravityで、複数のAIエージェントを連携させる機能がプレビュー公開されました。",
+    "公開デモでは、約90万ポリゴンのインタラクティブなThree.js空間を再構築しました。"
+   ],
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+    "title": "Gemini 4 Carbon is now available",
+    "site": "Google",
+    "description": "Today, we’re making Gemini 4 Carbon available to developers, enterprises, scientists, and consumers.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+   }
+  },
+  {
+   "label": "DeepMindのロボAI",
+   "points": [
+    "視覚・言語・行動モデル",
+    "200種類以上の作業で評価",
+    "部品仕分けで成功率96%"
+   ],
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "lines": [
+    {
+     "say": "ロボットの話もいきましょう、ディープマインドのジェミニロボティクスにてんごです。",
+     "show": "ロボットの話もいきましょう、DeepMindのGemini Robotics 2.5です。"
+    },
+    {
+     "say": "自動車工場でヒト型ロボットが部品を仕分ける実証では、成功率九十六パーセントでした。",
+     "show": "自動車工場で人型ロボットが部品を仕分ける実証では、成功率96%でした。"
+    },
+    {
+     "say": "ただし特定の条件での数字なので、そこは気をつけたいですね。",
+     "show": "ただし特定の条件での数字なので、そこは気をつけたいですね。"
+    }
+   ],
+   "details": [
+    "Gemini Robotics 2.5は、道具の使用や柔らかい物体の操作など、対応できる作業の幅を広げています。",
+    null,
+    "Mercedes-Benzの生産ラインで、Apptronikの人型ロボットApollo 2が自動車部品を仕分ける実証です。特定の条件での数値で、提供は提携先向けです。"
+   ],
+   "link": {
+    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "title": null,
+    "site": "deepmind.google",
+    "description": null,
+    "image": null,
+    "icon": null
+   }
+  },
+  {
+   "label": "LingBot-Touch公開",
+   "points": [
+    "ロボット向け触覚モデル",
+    "異なるセンサーを共通表現に",
+    "26種類の実機タスクで評価"
+   ],
+   "url": "https://technology.robbyant.com/lingbot-touch",
+   "lines": [
+    {
+     "say": "もう一つロボットから、触覚のエーアイです。",
+     "show": "もう一つロボットから、触覚のAIです。"
+    },
+    {
+     "say": "ロビアントが、リングボットタッチをオープンソースで公開しました。",
+     "show": "RobbyantがLingBot-Touchをオープンソースで公開しました。"
+    },
+    {
+     "say": "種類のちがうセンサーの情報を、共通の形にして使えるのが面白いところです。",
+     "show": "種類のちがうセンサーの情報を、共通の形にして使えるのが面白いところです。"
+    }
+   ],
+   "details": [
+    "Ant Group傘下のRobbyantが、オープンソースで公開しました。推論コードと学習済みモデルも公開されています。",
+    "磁気式、圧力抵抗式、視触覚式のセンサー情報を共通の表現に変換し、既存のロボット制御AIへ組み込めます。",
+    "約5,000時間の触覚データで事前学習されています。"
+   ],
+   "link": {
+    "url": "https://technology.robbyant.com/lingbot-touch",
+    "title": "LingBot-Touch Tactile Foundation Model - Robbyant",
+    "site": "Robbyant 蚂蚁灵波科技",
+    "description": "A tactile foundation model that learns unified representations across magnetic, piezoresistive, and visuotactile sensors, transferring to unseen tactile hardware and dexterous manipulation without ext",
+    "image": "https://mdn.alipayobjects.com/huamei_u94ywh/afts/img/fkaZRp3UjWwAAAAAgBAAAAgADkxfAQFr/original.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "MakeBuddy Smart5",
+   "points": [
+    "税込54,999円",
+    "造形サイズ180mm角",
+    "AI生成機能は今後提供"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000004.000187775.html",
+   "lines": [
+    {
+     "say": "最後はスリーディープリンター、キディのメイクバディスマートファイブです。",
+     "show": "最後は3Dプリンター、QIDIのMakeBuddy Smart5です。"
+    },
+    {
+     "say": "画像から立体を作るエーアイ機能は、今後のアップデートを待ちましょう。",
+     "show": "画像から立体を作るAI機能は、今後のアップデートを待ちましょう。"
+    }
+   ],
+   "details": [
+    "11月10日23時から公式ストアで販売を開始しています。",
+    "QIDI Techの新しい家庭向けシリーズの第一弾です。専用アプリや学習コンテンツとの連携を重視しています。",
+    "画像から3Dモデルを生成する機能は、今後のアップデートで提供予定で、現時点では未提供です。"
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000004.000187775.html",
+    "title": "先進のAI技術を搭載した家庭用3Dプリンター「MakeBuddy Smart5」、高品質な3Dプリントと家族で楽しむ創作・学びの体験を提供",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "Zhejiang Qidi Technology Co., Ltd.のプレスリリース（2026年11月10日 23時00分）先進のAI技術を搭載した家庭用3Dプリンター「MakeBuddy Smart5」、高品質な3Dプリントと家族で楽しむ創作・学びの体験を提供",
+    "image": "https://prcdn.freetls.fastly.net/release_image/187775/4/187775-4-9edfd4d5322e7bce0047bb45b456bcbe-1800x1000.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、やっぱりブレンダーのごてんさん。制作にすぐ効く更新が盛りだくさんでした。",
+   "show": "今日の注目は、やっぱりBlender 5.3。制作にすぐ効く更新が盛りだくさんでした。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-11",
+ "lang": "ja",
+ "seconds": 87.67,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.273,
+   "show": "おはようございます、ものラジオです。11月11日、水曜日の朝です。",
+   "part": 0
+  },
+  {
+   "start": 6.523,
+   "end": 10.664,
+   "show": "今日はBlenderから3Dプリンターまで、5本をお届けします。",
+   "part": 0
+  },
+  {
+   "start": 11.714,
+   "end": 14.81,
+   "show": "まずはBlender、5.3が正式リリースです。",
+   "part": 1
+  },
+  {
+   "start": 15.06,
+   "end": 20.548,
+   "show": "Gaussian Splattingが標準で読み込めて、Geometry Nodesで編集もできるんです。",
+   "part": 1
+  },
+  {
+   "start": 20.798,
+   "end": 25.287,
+   "show": "写真から作った立体空間を、制作に取り込みやすくなりますよ。",
+   "part": 1
+  },
+  {
+   "start": 26.337,
+   "end": 29.99,
+   "show": "続いて、GoogleのGemini 4 Carbonが提供開始です。",
+   "part": 2
+  },
+  {
+   "start": 30.24,
+   "end": 35.472,
+   "show": "複数のAIエージェントが連携する/swarm機能も、プレビューで登場しました。",
+   "part": 2
+  },
+  {
+   "start": 36.522,
+   "end": 41.139,
+   "show": "ロボットの話もいきましょう、DeepMindのGemini Robotics 2.5です。",
+   "part": 3
+  },
+  {
+   "start": 41.389,
+   "end": 47.875,
+   "show": "自動車工場で人型ロボットが部品を仕分ける実証では、成功率96%でした。",
+   "part": 3
+  },
+  {
+   "start": 48.125,
+   "end": 52.405,
+   "show": "ただし特定の条件での数字なので、そこは気をつけたいですね。",
+   "part": 3
+  },
+  {
+   "start": 53.455,
+   "end": 56.388,
+   "show": "もう一つロボットから、触覚のAIです。",
+   "part": 4
+  },
+  {
+   "start": 56.638,
+   "end": 60.628,
+   "show": "RobbyantがLingBot-Touchをオープンソースで公開しました。",
+   "part": 4
+  },
+  {
+   "start": 60.878,
+   "end": 66.389,
+   "show": "種類のちがうセンサーの情報を、共通の形にして使えるのが面白いところです。",
+   "part": 4
+  },
+  {
+   "start": 67.439,
+   "end": 71.429,
+   "show": "最後は3Dプリンター、QIDIのMakeBuddy Smart5です。",
+   "part": 5
+  },
+  {
+   "start": 71.679,
+   "end": 76.261,
+   "show": "画像から立体を作るAI機能は、今後のアップデートを待ちましょう。",
+   "part": 5
+  },
+  {
+   "start": 77.311,
+   "end": 83.367,
+   "show": "今日の注目は、やっぱりBlender 5.3。制作にすぐ効く更新が盛りだくさんでした。",
+   "part": 6
+  },
+  {
+   "start": 83.617,
+   "end": 85.622,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 11.714
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 11.714,
+   "end": 26.337
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 26.337,
+   "end": 36.522
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 36.522,
+   "end": 53.455
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 53.455,
+   "end": 67.439
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 67.439,
+   "end": 77.311
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 77.311,
+   "end": 87.672
+  }
+ ],
+ "made_at": "2026-11-11T14:17:17"
+}

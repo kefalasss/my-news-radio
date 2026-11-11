@@ -1,0 +1,108 @@
+name: Daily News Radio
+
+on:
+  workflow_dispatch:
+  schedule:
+    # JST 06:20 daily (UTC 21:20 on the previous day)
+    - cron: "20 21 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: my-news-radio-publish
+  cancel-in-progress: false
+
+jobs:
+  generate-and-deploy:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the station
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test RSS parsing and fallback behavior
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Install Japanese speech synthesizer
+        run: |
+          sudo add-apt-repository -y multiverse
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq open-jtalk open-jtalk-mecab-naist-jdic hts-voice-nitech-jp-atr503-m001 ffmpeg
+          test -f /usr/share/hts-voice/nitech-jp-atr503-m001/nitech_jp_atr503_m001.htsvoice
+
+      - name: Restore recent MP3 files from the broadcast branch
+        shell: bash
+        run: |
+          mkdir -p audio
+          if git fetch --quiet origin refs/heads/gh-pages:refs/remotes/origin/gh-pages 2>/dev/null; then
+            git archive refs/remotes/origin/gh-pages audio | tar -x || true
+          else
+            echo "First broadcast: no previous audio to restore."
+          fi
+
+      - name: Collect RSS and write today's script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.5-flash-lite
+        run: python3 tools/auto_news.py
+
+      - name: Generate Japanese speech and subtitle timings
+        shell: bash
+        run: |
+          DATE_JST=$(TZ=Asia/Tokyo date +%F)
+          python3 tools/speak_openjtalk.py "episodes/${DATE_JST}-ja.json"
+          python3 -c 'import tools.auto_news as n; n.rebuild_index()'
+
+      - name: Save new script to main (never commit MP3 here)
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add episodes.json episodes/
+          if ! git diff --cached --quiet; then
+            git commit -m "radio: publish $(TZ=Asia/Tokyo date +%F)"
+            git push origin HEAD:main
+          fi
+
+      - name: Create broadcast branch with last 30 days of MP3
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf https://github.com/
+          bash tools/publish.sh
+
+      - name: Assemble published files
+        shell: bash
+        run: |
+          mkdir -p _site
+          git fetch --quiet --force origin refs/heads/gh-pages:refs/remotes/origin/gh-pages
+          git archive refs/remotes/origin/gh-pages | tar -x -C _site
+          test -s _site/episodes.json
+          test -f "_site/audio/$(TZ=Asia/Tokyo date +%F)-ja.mp3"
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

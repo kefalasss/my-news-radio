@@ -1,0 +1,320 @@
+{
+ "title": "Virtual Worlds with Real Physics and Robot Video Generation",
+ "opening": [
+  {
+   "say": "Good morning, and welcome to Mono Radio. It's Monday, November ninth, and here's your morning briefing.",
+   "show": "Good morning, and welcome to Mono Radio. It's Monday, November 9."
+  },
+  {
+   "say": "Today we have five stories from the worlds of A I and three D.",
+   "show": "Today we have five stories from the worlds of AI and 3D."
+  }
+ ],
+ "news": [
+  {
+   "label": "Four New Cosmos 3 Models",
+   "points": [
+    "Four models built on Cosmos 3 Nano",
+    "Predicting video from robot arm motion",
+    "Generating self-driving data too"
+   ],
+   "details": [
+    "Four open-weight models built on Cosmos 3 Nano have been released.",
+    "They include Sim-Bimanual, which predicts the next video frames from the motions of a two-armed robot.",
+    "There are also models that generate multi-camera and LiDAR data, and post-training recipes are available too."
+   ],
+   "lines": [
+    {
+     "say": "Let's start with NVIDIA, which has released four new open models built on Cosmos three.",
+     "show": "Let's start with NVIDIA and its new Cosmos 3 models."
+    },
+    {
+     "say": "What's fun is that they can predict video from a two-armed robot's movements, and even generate data for self-driving.",
+     "show": "They can generate video that follows a robot's movements."
+    }
+   ],
+   "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+   "link": {
+    "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+    "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+    "site": "huggingface.co",
+    "description": "A Blog post by NVIDIA on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/677c471f8b4c4e271e57eaa5/rtmGVvFdD6JqkjBc26vsp.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Anthropic on Memory Cleanup",
+   "points": [
+    "Dreaming: reviewing agent run logs",
+    "Logs, notes, and knowledge kept apart",
+    "Selective saving works better"
+   ],
+   "details": [
+    "It's a method where an agent looks back over its past run logs and consolidates key insights into memory.",
+    "Conversation logs, notes, structured knowledge, and the context loaded next time are handled separately.",
+    "It shows that saving selected current goals and verified rules works better than recording everything."
+   ],
+   "lines": [
+    {
+     "say": "Next up is Anthropic, with an explainer on a method called dreaming, where agents tidy up their own memory.",
+     "show": "Next, Anthropic and a method called dreaming for agent memory."
+    },
+    {
+     "say": "The takeaway is that keeping your current goals and verified rules works better than saving everything.",
+     "show": "Choosing what to keep beats saving everything."
+    }
+   ],
+   "url": "https://www.anthropic.com/research/components-of-agent-memory",
+   "link": {
+    "url": "https://www.anthropic.com/research/components-of-agent-memory",
+    "title": "The components of agent memory",
+    "site": "www.anthropic.com",
+    "description": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg",
+    "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "Speeding Up FLUX 3 Inference",
+   "points": [
+    "Faster FLUX 3 Image Klein",
+    "Up to 4.45 times faster",
+    "Example of a compatible endpoint"
+   ],
+   "details": [
+    "A guide has been published on speeding up image generation and image editing with TensorRT LLM VisualGen.",
+    "In tests at 2048 by 2048 on a single B200, text to image is up to 3.46 times faster, and image to image is up to 4.45 times faster.",
+    "It also includes an example of serving through an OpenAI-compatible image generation endpoint."
+   ],
+   "lines": [
+    {
+     "say": "Here's another one from NVIDIA, a new way to make the image model FLUX three run faster.",
+     "show": "Another from NVIDIA: a way to make FLUX 3 run faster."
+    },
+    {
+     "say": "Depending on the setup, it's up to more than four times faster, which is a big jump.",
+     "show": "Depending on the setup, it's over four times faster."
+    }
+   ],
+   "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+   "link": {
+    "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+    "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "When deploying diffusion models in design tools, image editors, and visual production workflows, developers must account for inference latency. Generating an image requires multiple sequential passes…",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/techblog-5893-article-kix-ulkeecvizi09.webp",
+    "icon": null
+   }
+  },
+  {
+   "label": "Snapmaker U1 Launches in Japan",
+   "points": [
+    "On sale in Japan from November 6",
+    "Four independent print heads",
+    "Prints up to 270 mm per side"
+   ],
+   "details": [
+    "The official distributor in Japan announced it, and it sells for 154,000 yen including tax.",
+    "Instead of sharing one nozzle and purging, it uses SnapSwap, which swaps the whole head in about five seconds.",
+    "It supports prints up to 270 by 270 by 270 millimeters. The waste reduction of up to 85 percent is based on the maker's own comparison tests."
+   ],
+   "lines": [
+    {
+     "say": "On to three D printing. The Snapmaker U one has gone on sale in Japan.",
+     "show": "On to 3D printing: the Snapmaker U1 is on sale in Japan."
+    },
+    {
+     "say": "It swaps the whole head in about five seconds, so there's less waste when changing colors.",
+     "show": "It swaps heads in about 5 seconds, so color changes waste less."
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000012.000007451.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000012.000007451.html",
+    "title": "Snapmaker U1登場。4つの独立プリントヘッドで、マルチカラー3Dプリントの常識を変える。",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社マイクロボード・テクノロジーのプレスリリース（2026年11月5日 10時20分）Snapmaker U1登場。4つの独立プリントヘッドで、マルチカラー3Dプリントの常識を変える。",
+    "image": "https://prcdn.freetls.fastly.net/release_image/7451/12/7451-12-8d969a1e1fa1db8e716d2e8625411bb0-2500x1406.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "SimReady Central Is Live",
+   "points": [
+    "Over 2,000 free 3D assets",
+    "Physics like mass and friction",
+    "Search assets in plain language"
+   ],
+   "details": [
+    "More than 2,000 OpenUSD assets, including robot arms, grippers, and warehouse equipment, are available on Hugging Face.",
+    "They carry simulation properties such as collision shapes, mass, friction, and joint limits.",
+    "Searching in natural language and assembling scenes with A I agents are also envisioned."
+   ],
+   "lines": [
+    {
+     "say": "Last up is NVIDIA again, with SimReady Central, which offers over two thousand free three D assets with physics information.",
+     "show": "Last, NVIDIA again: free 3D assets with physics information."
+    },
+    {
+     "say": "They include collision shapes and mass, so they look ready to drop straight into a simulation.",
+     "show": "With mass included, they look easy to use in simulation."
+    }
+   ],
+   "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+   "link": {
+    "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+    "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+    "site": "huggingface.co",
+    "description": "A Blog post by NVIDIA on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/XeXjvg4j4TEooxuK8uoO7.png",
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's highlight is how virtual environments with physics data and motion-aware video generation are starting to connect.",
+   "show": "The highlight: physics-ready worlds meeting video generation."
+  },
+  {
+   "say": "That's all from Mono Radio. Have a great day!",
+   "show": "That's all from Mono Radio. Have a great day!"
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-09",
+ "lang": "en",
+ "seconds": 87.48,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.616,
+   "show": "Good morning, and welcome to Mono Radio. It's Monday, November 9.",
+   "part": 0
+  },
+  {
+   "start": 6.866,
+   "end": 10.493,
+   "show": "Today we have five stories from the worlds of AI and 3D.",
+   "part": 0
+  },
+  {
+   "start": 11.543,
+   "end": 16.833,
+   "show": "Let's start with NVIDIA and its new Cosmos 3 models.",
+   "part": 1
+  },
+  {
+   "start": 17.083,
+   "end": 23.889,
+   "show": "They can generate video that follows a robot's movements.",
+   "part": 1
+  },
+  {
+   "start": 24.939,
+   "end": 31.445,
+   "show": "Next, Anthropic and a method called dreaming for agent memory.",
+   "part": 2
+  },
+  {
+   "start": 31.695,
+   "end": 37.477,
+   "show": "Choosing what to keep beats saving everything.",
+   "part": 2
+  },
+  {
+   "start": 38.527,
+   "end": 43.689,
+   "show": "Another from NVIDIA: a way to make FLUX 3 run faster.",
+   "part": 3
+  },
+  {
+   "start": 43.939,
+   "end": 48.739,
+   "show": "Depending on the setup, it's over four times faster.",
+   "part": 3
+  },
+  {
+   "start": 49.789,
+   "end": 54.547,
+   "show": "On to 3D printing: the Snapmaker U1 is on sale in Japan.",
+   "part": 4
+  },
+  {
+   "start": 54.797,
+   "end": 59.703,
+   "show": "It swaps heads in about 5 seconds, so color changes waste less.",
+   "part": 4
+  },
+  {
+   "start": 60.753,
+   "end": 68.775,
+   "show": "Last, NVIDIA again: free 3D assets with physics information.",
+   "part": 5
+  },
+  {
+   "start": 69.025,
+   "end": 74.059,
+   "show": "With mass included, they look easy to use in simulation.",
+   "part": 5
+  },
+  {
+   "start": 75.109,
+   "end": 82.363,
+   "show": "The highlight: physics-ready worlds meeting video generation.",
+   "part": 6
+  },
+  {
+   "start": 82.613,
+   "end": 85.429,
+   "show": "That's all from Mono Radio. Have a great day!",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 11.543
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 11.543,
+   "end": 24.939
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 24.939,
+   "end": 38.527
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 38.527,
+   "end": 49.789
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 49.789,
+   "end": 60.753
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 60.753,
+   "end": 75.109
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 75.109,
+   "end": 87.479
+  }
+ ],
+ "made_at": "2026-11-09T06:12:30"
+}

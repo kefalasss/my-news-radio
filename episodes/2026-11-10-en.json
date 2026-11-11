@@ -1,0 +1,340 @@
+{
+ "title": "AI Designs Everything from Circuit Board to Case: Fable 5.2 Arrives",
+ "opening": [
+  {
+   "say": "Good morning! It's Tuesday, November tenth, and this is Mono Radio.",
+   "show": "Good morning! It's Tuesday, November 10, and this is Mono Radio."
+  },
+  {
+   "say": "Today we have five stories about A I and three D.",
+   "show": "Today we have five stories about AI and 3D."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Our top story today: Fable five point two, an A I that designed everything from the circuits to the case.",
+   "show": "Our top story: Fable 5.2, an AI that designed everything from circuits to case."
+  },
+  {
+   "say": "It could really change how prototypes get made, which is exciting. That's all from Mono Radio. See you next time!",
+   "show": "It could change how prototypes get made. That's Mono Radio. See you next time!"
+  }
+ ],
+ "news": [
+  {
+   "label": "Claude Fable 5.2 Announced",
+   "points": [
+    "Designs board, case, and firmware end to end",
+    "Three prototypes built",
+    "Worked with no electrical design changes"
+   ],
+   "details": [
+    "Claude handled everything from choosing electronic parts and routing a four layer PCB to the CAD design of a 3D printed case and writing the software.",
+    "The three prototypes are a voice assistant, a USB speakerphone, and a handheld virtual pet. Manufacturing and assembly were done with help from companies.",
+    "This is the result of pre-testing by the manufacturers, and it doesn't mean any circuit can go into mass production unverified."
+   ],
+   "lines": [
+    {
+     "say": "Let's start with Anthropic's new model, Fable five point two.",
+     "show": "Let's start with Anthropic's new model, Fable 5.2."
+    },
+    {
+     "say": "The A I designed everything from the circuit board to the case and the firmware, and three prototypes were built from it.",
+     "show": "The AI designed the board, case, and firmware, and three prototypes were built."
+    }
+   ],
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "link": {
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+    "site": "www.anthropic.com",
+    "description": "Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges. Fable 5.2 sets a new bar in coding, finance, and the sciences.",
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg",
+    "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "MIT WorldParticle",
+   "points": [
+    "One AI for sand, liquids, and more",
+    "Handles six kinds of physical phenomena",
+    "About 100 times faster for proteins"
+   ],
+   "details": [
+    "It represents materials as collections of 3D particles and uses a Transformer to predict how each particle moves next.",
+    "Fluids, sand, deformable bodies, proteins, and more used to need separate solvers, but now one shared architecture handles them all.",
+    "The speedup is the research team's report, compared with conventional numerical simulation. For now, this is a research result."
+   ],
+   "lines": [
+    {
+     "say": "Next up is WorldParticle from M I T.",
+     "show": "Next up is WorldParticle from MIT."
+    },
+    {
+     "say": "Sand, liquids, even proteins, all simulated by a single A I.",
+     "show": "Sand, liquids, even proteins, all simulated by a single AI."
+    },
+    {
+     "say": "For proteins, it's reportedly about one hundred times faster.",
+     "show": "For proteins, it's reportedly about 100 times faster."
+    }
+   ],
+   "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+   "link": {
+    "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
+    "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+    "site": "MIT News | Massachusetts Institute of Technology",
+    "description": "WorldParticle is a physical world model that simulates many different physical processes — from flowing water to folding proteins — in one unified system, instead of using a separate, hand-coded simul",
+    "image": "https://news.mit.edu/sites/default/files/images/202611/MIT-WorldParticle-01-Press.jpg",
+    "icon": "https://news.mit.edu/themes/mit/assets/img/favicon/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "MIT and NYU: FLEX Robot",
+   "points": [
+    "Robot infers unspoken intent",
+    "Protect the laptop, avoid the phone too",
+    "About five seconds to process"
+   ],
+   "details": [
+    "From natural language cautions, it infers intentions people never stated and revises its action plan.",
+    "Given the instruction not to spill coffee on the laptop, it changes its path to avoid a nearby smartphone as well.",
+    "It updates its judgment in three steps: Add, Generalize, and Mask. Evaluation was in simulation, and real robot tests are still to come."
+   ],
+   "lines": [
+    {
+     "say": "Here's one more from M I T, a robot system called FLEX.",
+     "show": "Here's one more from MIT, a robot system called FLEX."
+    },
+    {
+     "say": "Just tell it not to spill on the laptop, and it steers clear of the nearby phone too.",
+     "show": "Tell it not to spill on the laptop, and it avoids the phone too."
+    }
+   ],
+   "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+   "link": {
+    "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+    "title": "AI-assisted learning platform helps robots reason beyond literal commands",
+    "site": "MIT News | Massachusetts Institute of Technology",
+    "description": "FLEX, a new AI-assisted learning platform developed by MIT engineers, enables motion-planning robots to follow a human’s explicit instructions while also drawing larger generalizations that help to im",
+    "image": "https://news.mit.edu/sites/default/files/images/202611/MIT-FLEX-01-press.jpg",
+    "icon": "https://news.mit.edu/themes/mit/assets/img/favicon/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "Canon MREAL Collaborator",
+   "points": [
+    "Share life size 3DCG remotely",
+    "Public hands-on debut from 11/11",
+    "Easy for non-experts to join"
+   ],
+   "details": [
+    "It supports OpenXR, so people in different places can share life size 3DCG across multiple XR devices.",
+    "The public can try it for the first time at Sangyo Koryu Ten 2026, held November 11 to 13.",
+    "It focuses on an intuitive interface, making it easy to join design reviews."
+   ],
+   "lines": [
+    {
+     "say": "From Japan, we have M Real Collaborator from Canon.",
+     "show": "From Japan, we have MREAL Collaborator from Canon."
+    },
+    {
+     "say": "It's X R software for sharing life size three D C G remotely, and the public can try it for the first time starting November eleventh.",
+     "show": "It's XR software for sharing life size 3DCG remotely."
+    }
+   ],
+   "url": "https://cgworld.jp/flashnews/02-2611-mrealcollaborator.html",
+   "link": {
+    "url": "https://cgworld.jp/flashnews/02-2611-mrealcollaborator.html",
+    "title": "キヤノン、製造業向けXRコラボレーションソフト「MREAL Collaborator」の体験機会を11/11（水）からの「産業交流展2026」で提供",
+    "site": "CG・映像の専門情報サイト | CGWORLD.jp",
+    "description": "月刊CGWORLDがお届けする、日本で唯一無二のCG＆映像に特化した情報サイトです。3DCG、VFX、撮影、編集などに関する国内外さまざまな話題をお届けします。",
+    "image": "https://cgworld.jp/flashnews/assets_c/2026/11/13980-1208-2acb188829b86358cb210330ca5e9304-1920x1280-thumb-1000x563-90748.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Fabric Formwork Saves Material",
+   "points": [
+    "Cast in sewn fabric formwork",
+    "About one third the concrete",
+    "No special machines needed"
+   ],
+   "details": [
+    "Topology optimized concrete beams with complex shapes are cast in formwork made of cut and sewn fabric.",
+    "In a test beam about three meters long, concrete use was about one third and rebar about half of a conventional design.",
+    "Relatively inexpensive fabric molds make it possible without 3D printers or CNC machines. For now, these are research test pieces."
+   ],
+   "lines": [
+    {
+     "say": "Last up, concrete beams made in molds of sewn fabric.",
+     "show": "Last up, concrete beams made in molds of sewn fabric."
+    },
+    {
+     "say": "It uses about one third the concrete, and the neat part is that no special machines are needed.",
+     "show": "It uses about one third the concrete, with no special machines needed."
+    }
+   ],
+   "url": "https://sustainability.mit.edu/article/fabric-molds-could-bring-material-saving-concrete-beams-within-reach",
+   "link": {
+    "url": "https://news.mit.edu/2026/fabric-molds-could-bring-material-saving-concrete-beams-within-reach-1106",
+    "title": "Fabric molds could bring material-saving concrete beams within reach",
+    "site": "MIT News | Massachusetts Institute of Technology",
+    "description": "MIT engineers poured concrete into a sewn fabric mold to build a beam using just one-third the amount of concrete and half as much steel as a conventional beam, a low-tech approach that could make low",
+    "image": "https://news.mit.edu/sites/default/files/images/202610/MIT-CEE-concrete-beams.jpg",
+    "icon": "https://news.mit.edu/themes/mit/assets/img/favicon/apple-touch-icon.png",
+    "found_by": "search"
+   },
+   "source_link": {
+    "url": "https://sustainability.mit.edu/article/fabric-molds-could-bring-material-saving-concrete-beams-within-reach",
+    "title": "Fabric molds could bring material-saving concrete beams within reach | MIT Sustainability",
+    "site": "sustainability.mit.edu",
+    "description": "MIT engineers cast a concrete beam using a sewn fabric mold with one-third the amount of concrete and half as much steel as a conventional beam.",
+    "image": null,
+    "icon": null
+   }
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-10",
+ "lang": "en",
+ "seconds": 80.69,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 4.568,
+   "show": "Good morning! It's Tuesday, November 10, and this is Mono Radio.",
+   "part": 0
+  },
+  {
+   "start": 4.818,
+   "end": 7.741,
+   "show": "Today we have five stories about AI and 3D.",
+   "part": 0
+  },
+  {
+   "start": 8.791,
+   "end": 12.311,
+   "show": "Let's start with Anthropic's new model, Fable 5.2.",
+   "part": 1
+  },
+  {
+   "start": 12.561,
+   "end": 18.918,
+   "show": "The AI designed the board, case, and firmware, and three prototypes were built.",
+   "part": 1
+  },
+  {
+   "start": 19.968,
+   "end": 22.528,
+   "show": "Next up is WorldParticle from MIT.",
+   "part": 2
+  },
+  {
+   "start": 22.778,
+   "end": 27.215,
+   "show": "Sand, liquids, even proteins, all simulated by a single AI.",
+   "part": 2
+  },
+  {
+   "start": 27.465,
+   "end": 31.156,
+   "show": "For proteins, it's reportedly about 100 times faster.",
+   "part": 2
+  },
+  {
+   "start": 32.206,
+   "end": 35.918,
+   "show": "Here's one more from MIT, a robot system called FLEX.",
+   "part": 3
+  },
+  {
+   "start": 36.168,
+   "end": 40.84,
+   "show": "Tell it not to spill on the laptop, and it avoids the phone too.",
+   "part": 3
+  },
+  {
+   "start": 41.89,
+   "end": 45.09,
+   "show": "From Japan, we have MREAL Collaborator from Canon.",
+   "part": 4
+  },
+  {
+   "start": 45.34,
+   "end": 54.023,
+   "show": "It's XR software for sharing life size 3DCG remotely.",
+   "part": 4
+  },
+  {
+   "start": 55.073,
+   "end": 58.379,
+   "show": "Last up, concrete beams made in molds of sewn fabric.",
+   "part": 5
+  },
+  {
+   "start": 58.629,
+   "end": 63.92,
+   "show": "It uses about one third the concrete, with no special machines needed.",
+   "part": 5
+  },
+  {
+   "start": 64.97,
+   "end": 71.455,
+   "show": "Our top story: Fable 5.2, an AI that designed everything from circuits to case.",
+   "part": 6
+  },
+  {
+   "start": 71.705,
+   "end": 78.639,
+   "show": "It could change how prototypes get made. That's Mono Radio. See you next time!",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 8.791
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 8.791,
+   "end": 19.968
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 19.968,
+   "end": 32.206
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 32.206,
+   "end": 41.89
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 41.89,
+   "end": 55.073
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 55.073,
+   "end": 64.97
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 64.97,
+   "end": 80.689
+  }
+ ],
+ "made_at": "2026-11-10T06:32:41"
+}

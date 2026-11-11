@@ -1,0 +1,194 @@
+{
+  "format": "monoradio/news-1",
+  "source": "my-news-radio-auto",
+  "generation_mode": "gemini",
+  "date": "2026-11-11",
+  "lang": "ja",
+  "title": "2026-11-11 ゲーム開発・CG・AIニュース",
+  "opening": [
+    {
+      "say": "おはようございます。マイニュースラジオです。11月11日のニュースです。",
+      "show": "おはようございます。マイニュースラジオです。11月11日のニュースです。"
+    },
+    {
+      "say": "ゲーム開発とCG、AIの話題をお届けします。",
+      "show": "ゲーム開発とCG、AIの話題をお届けします。"
+    }
+  ],
+  "news": [
+    {
+      "label": "Blender向け3Dプリント機能集",
+      "points": [
+        "18個の便利なアドオンを同梱",
+        "モデルの修復や確認に対応"
+      ],
+      "url": "https://www.blendernation.com/2026/11/10/3d-print-suite-18-blender-add-ons-for-3d-printing/",
+      "lines": [
+        {
+          "say": "Sonneblom Digitaalは、Blender向けの3Dプリント用アドオン18点をまとめたスイートを発表しました。",
+          "show": "Sonneblom Digitaalは、Blender向けの3Dプリント用アドオン18点をまとめたスイートを発表しました。"
+        },
+        {
+          "say": "モデルの修復や印刷適性のチェック機能などが含まれています。",
+          "show": "モデルの修復や印刷適性のチェック機能などが含まれています。"
+        }
+      ],
+      "link": {
+        "url": "https://www.blendernation.com/2026/11/10/3d-print-suite-18-blender-add-ons-for-3d-printing/",
+        "title": "3D Print Suite: 18 Blender add-ons for 3D printing",
+        "site": "BlenderNation",
+        "description": "Sonneblom Digitaal has put its whole 3D-printing range for Blender into one bundle: the 3D Print Suite, 18 add-ons for Blender 4.2 LTS and newer, each its own i",
+        "image": null,
+        "icon": null
+      }
+    },
+    {
+      "label": "ゲーム開発×AIイベント開催",
+      "points": [
+        "12月3日に高輪ゲートウェイで開催",
+        "実務への導入と課題に迫る"
+      ],
+      "url": "https://www.4gamer.net/games/991/G999101/20261109048/",
+      "lines": [
+        {
+          "say": "リヴァイとPolyscapeは、ゲーム開発におけるAI活用をテーマにしたミートアップイベントを12月3日に開催します。",
+          "show": "リヴァイとPolyscapeは、ゲーム開発におけるAI活用をテーマにしたミートアップイベントを12月3日に開催します。"
+        },
+        {
+          "say": "東京の高輪ゲートウェイで、実務への導入や課題について迫ります。",
+          "show": "東京の高輪ゲートウェイで、実務への導入や課題について迫ります。"
+        }
+      ],
+      "link": {
+        "url": "https://www.4gamer.net/games/991/G999101/20261109048/",
+        "title": "「ゲーム開発×AI、今どこまで来たか」ミートアップイベントを12月3日に高輪ゲートウェイで開催。実務への導入と課題に迫る",
+        "site": "4Gamer",
+        "description": "リヴァイとPolyscapeは，ゲーム開発におけるAI活用をテーマにしたミートアップイベント「ゲーム開発×AI、今どこまで来たか」を，2026年12月3日に東京・高輪ゲートウェイの「EIGHT」にて開催する。",
+        "image": null,
+        "icon": null
+      }
+    },
+    {
+      "label": "Megascansが再び無料に",
+      "points": [
+        "2万3千点以上の3Dスキャン素材",
+        "ゲームやVFX向けに提供"
+      ],
+      "url": "https://www.cgchannel.com/2026/11/epic-has-made-megascans-free-again-for-good-this-time/",
+      "lines": [
+        {
+          "say": "Epicは、2万3千点以上の高品質な3Dスキャン素材を再び無料化すると発表しました。",
+          "show": "Epicは、2万3千点以上の高品質な3Dスキャン素材を再び無料化すると発表しました。"
+        },
+        {
+          "say": "環境アセットや植物などの素材が、ゲームやVFX制作に向けて利用可能になります。",
+          "show": "環境アセットや植物などの素材が、ゲームやVFX制作に向けて利用可能になります。"
+        }
+      ],
+      "link": {
+        "url": "https://www.cgchannel.com/2026/11/epic-has-made-megascans-free-again-for-good-this-time/",
+        "title": "Epic has made Megascans free again – for good, this time",
+        "site": "CG Channel",
+        "description": "Download over 23,000 high-quality 3D scans of environment assets, buildings, plants and materials for use in games, VFX and visualization.",
+        "image": null,
+        "icon": null
+      }
+    }
+  ],
+  "closing": [
+    {
+      "say": "以上、今日のニュースでした。また明日。",
+      "show": "以上、今日のニュースでした。また明日。"
+    }
+  ],
+  "seconds": 84.6,
+  "lines_timed": [
+    {
+      "start": 0.0,
+      "end": 5.845,
+      "show": "おはようございます。マイニュースラジオです。11月11日のニュースです。",
+      "part": 0
+    },
+    {
+      "start": 6.095,
+      "end": 10.475,
+      "show": "ゲーム開発とCG、AIの話題をお届けします。",
+      "part": 0
+    },
+    {
+      "start": 10.725,
+      "end": 24.85,
+      "show": "Sonneblom Digitaalは、Blender向けの3Dプリント用アドオン18点をまとめたスイートを発表しました。",
+      "part": 1
+    },
+    {
+      "start": 25.1,
+      "end": 30.01,
+      "show": "モデルの修復や印刷適性のチェック機能などが含まれています。",
+      "part": 1
+    },
+    {
+      "start": 30.26,
+      "end": 47.455,
+      "show": "リヴァイとPolyscapeは、ゲーム開発におけるAI活用をテーマにしたミートアップイベントを12月3日に開催します。",
+      "part": 2
+    },
+    {
+      "start": 47.705,
+      "end": 53.23,
+      "show": "東京の高輪ゲートウェイで、実務への導入や課題について迫ります。",
+      "part": 2
+    },
+    {
+      "start": 53.48,
+      "end": 69.865,
+      "show": "Epicは、2万3千点以上の高品質な3Dスキャン素材を再び無料化すると発表しました。",
+      "part": 3
+    },
+    {
+      "start": 70.115,
+      "end": 80.465,
+      "show": "環境アセットや植物などの素材が、ゲームやVFX制作に向けて利用可能になります。",
+      "part": 3
+    },
+    {
+      "start": 80.715,
+      "end": 84.325,
+      "show": "以上、今日のニュースでした。また明日。",
+      "part": 4
+    }
+  ],
+  "segments": [
+    {
+      "kind": "opening",
+      "index": null,
+      "start": 0.0,
+      "end": 10.725
+    },
+    {
+      "kind": "news",
+      "index": 0,
+      "start": 10.725,
+      "end": 30.26
+    },
+    {
+      "kind": "news",
+      "index": 1,
+      "start": 30.26,
+      "end": 53.48
+    },
+    {
+      "kind": "news",
+      "index": 2,
+      "start": 53.48,
+      "end": 80.715
+    },
+    {
+      "kind": "closing",
+      "index": null,
+      "start": 80.715,
+      "end": 84.6
+    }
+  ],
+  "made_at": "2026-11-11T10:04:30.711403+00:00"
+}

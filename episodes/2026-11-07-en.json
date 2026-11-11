@@ -1,0 +1,321 @@
+{
+ "title": "Videos Stretch to 15 Seconds! Gemini Omni Now Generally Available",
+ "opening": [
+  {
+   "say": "Good morning, and welcome to Mono Radio. It's Saturday morning, November seventh.",
+   "show": "Good morning, and welcome to Mono Radio. It's Saturday, November 7."
+  },
+  {
+   "say": "Today we've got five stories, from video generation to translation and three D C G.",
+   "show": "Five stories today, from video generation to translation and 3DCG."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Today's pick is Gemini Omni. Turning a still image into a short video, then changing just the background or the staging, sounds like a lot of fun.",
+   "show": "Today's pick: Gemini Omni, where you can change just the background or staging."
+  },
+  {
+   "say": "That's all from Mono Radio. Have a great Saturday!",
+   "show": "That's all from Mono Radio. Have a great Saturday!"
+  }
+ ],
+ "news": [
+  {
+   "label": "Gemini Omni 1.2 Flash",
+   "points": [
+    "Videos now up to 15 seconds",
+    "Edit backgrounds and lighting by chatting",
+    "720p costs $0.07 per second"
+   ],
+   "details": [
+    "The maximum length is up from ten seconds to fifteen. It keeps the look of reference images and short clips.",
+    "You can adjust backgrounds, lighting, products and more, step by step, through conversation.",
+    "API pricing for 720p is $0.07 per second, 30% lower than the previous version."
+   ],
+   "lines": [
+    {
+     "say": "First up, Google. Gemini Omni one point two Flash is now generally available.",
+     "show": "First up, Google. Gemini Omni 1.2 Flash is now generally available."
+    },
+    {
+     "say": "Videos now run up to fifteen seconds, and you can tweak them just by chatting. Prices have dropped too!",
+     "show": "Videos now run up to 15 seconds, and you can tweak them by chatting."
+    }
+   ],
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+    "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+    "site": "Google",
+    "description": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+   }
+  },
+  {
+   "label": "Cursor Voice Chat",
+   "points": [
+    "Talk to the agent by voice",
+    "Available in the IDE, web and iOS",
+    "Voice powered by Grok Voice"
+   ],
+   "details": [
+    "You can have a real-time voice call with your coding agent.",
+    "It works in the Agents Window, the IDE, on the web and on iOS.",
+    "This is separate from the existing voice input feature, and it uses Grok Voice for the voice part."
+   ],
+   "lines": [
+    {
+     "say": "Next, a developer tools story. Cursor now has Voice Chat, so you can talk with its agent out loud.",
+     "show": "Next, developer tools. Cursor now lets you talk to its agent by voice."
+    },
+    {
+     "say": "You can ask what it just changed while you keep working, which is pretty neat.",
+     "show": "You can ask what just changed while you keep working. Pretty neat."
+    }
+   ],
+   "url": "https://cursor.com/changelog/voice-chat",
+   "link": {
+    "url": "https://cursor.com/changelog/voice-chat",
+    "title": "エージェントとのボイスチャット · Cursor",
+    "site": "Cursor",
+    "description": "デスクトップ、ウェブ、iOSで、リアルタイムの音声通話を使ってエージェントと会話できます。",
+    "image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/og/opengraph-default.png",
+    "icon": "https://cursor.com/marketing-static/icon-192x192-light.png"
+   }
+  },
+  {
+   "label": "PLaMo 3 Translate",
+   "points": [
+    "Four sizes, from 0.8B to 31B",
+    "Supports 53 languages",
+    "Runs on phones without internet"
+   ],
+   "details": [
+    "Weights are available in four sizes: 0.8B, 2B, 8B and 31B.",
+    null,
+    "A demo shows a small model running on a smartphone with no internet connection."
+   ],
+   "lines": [
+    {
+     "say": "Next, a homegrown model from Japan. Preferred Networks has released PLaMo three Translate.",
+     "show": "Next, a homegrown model. Preferred Networks released PLaMo 3 Translate."
+    },
+    {
+     "say": "It supports fifty-three languages, and there's even a small model that runs on a phone with no internet.",
+     "show": "It supports 53 languages, with a small model that runs on a phone offline."
+    }
+   ],
+   "url": "https://www.preferred.jp/ja/news/pr20261105",
+   "link": {
+    "url": "https://www.preferred.jp/ja/news/pr20261105",
+    "title": "PFN、世界最高水準のAI翻訳がエッジで可能な大規模言語モデル  PLaMo 3 Translate をオープンウェイトで公開 - 株式会社Preferred Networks",
+    "site": "株式会社Preferred Networks",
+    "description": "訂正 (11/05 11:45）: 直近事業年度の収入または売上が10億円未満以下の企業および個人はPLaMoコミュニティライセンスのもと、モデルをダウンロードし、商用・非商用にかかわらずスマートフォン、ノートパソコン、社内サーバーなどのエッジでクラウドを介さずに無償利用することができます。株式会社Preferred",
+    "image": "https://pfn-web-static-contents-kuroco.s3.ap-northeast-1.amazonaws.com/files/topics/1820_ext_5_0.png?response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27680x452.png&response-content-type=image%2Fpng&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAU6WUUW4WRBGES7WL%2F20261106%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T013023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Signature=58f21a583253cbfb948650b5ab5b57167e4890aa2a94f958d5b5879b751d924f",
+    "icon": "https://www.preferred.jp/apple-icon.png?98b0016698193766"
+   }
+  },
+  {
+   "label": "NinjinNormals 2.0",
+   "points": [
+    "Paint and transfer normals in Maya",
+    "Convert shadow textures to SDF",
+    "Supports toon display too"
+   ],
+   "details": [
+    null,
+    "You can check shading with a light rig, bake the shadow texture, and convert it into an SDF map.",
+    "It supports toon display in Viewport 2.0."
+   ],
+   "lines": [
+    {
+     "say": "Now for some three D C G. Let's look at Ninjin Normals two point zero, a tool for Maya.",
+     "show": "Now for some 3DCG. Here's NinjinNormals 2.0, a tool for Maya."
+    },
+    {
+     "say": "You can tidy up normals, turn face shadows into a texture, and convert it into an S D F map.",
+     "show": "You can turn face shadows into a texture and convert it to an SDF map."
+    }
+   ],
+   "url": "https://cgworld.jp/flashnews/01-202611-NinjinNormals.html",
+   "link": {
+    "url": "https://cgworld.jp/flashnews/01-202611-NinjinNormals.html",
+    "title": "Maya用法線編集ツール「NinjinNormals 2.0」リリース　SDFマップ生成やViewport 2.0トゥーンシェーディングに対応",
+    "site": "CG・映像の専門情報サイト | CGWORLD.jp",
+    "description": "月刊CGWORLDがお届けする、日本で唯一無二のCG＆映像に特化した情報サイトです。3DCG、VFX、撮影、編集などに関する国内外さまざまな話題をお届けします。",
+    "image": "https://cgworld.jp/flashnews/assets_c/2026/11/NinjinNormals-01-thumb-1920x1080-90693.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Bone Dynamics 1.3",
+   "points": [
+    "World collision added",
+    "Cloth collision between outfits",
+    "Hair sway with delay and external forces"
+   ],
+   "details": [
+    "It can handle collisions with surrounding obstacles.",
+    "It can handle collisions between overlapping outfits.",
+    "Interpolation between bones and frames reduces clipping while letting you tune the computational load."
+   ],
+   "lines": [
+    {
+     "say": "Last up, more three D C G: Bone Dynamics one point three from Silicon Studio.",
+     "show": "Last up, more 3DCG: Bone Dynamics 1.3 from Silicon Studio."
+    },
+    {
+     "say": "It keeps hair and outfits from clipping through each other, with solid control over collisions and sway.",
+     "show": "It keeps hair and outfits from clipping, with solid control over sway."
+    }
+   ],
+   "url": "https://cgworld.jp/special-feature/202611-siliconstudio-bonedynamics.html",
+   "link": {
+    "url": "https://cgworld.jp/special-feature/202611-siliconstudio-bonedynamics.html",
+    "title": "【Unreal Engine対応】破綻を抑え、ねらいどおりに揺らす物理演算プラグイン「Silicon Studio Bone Dynamics」",
+    "site": "CG・映像の専門情報サイト | CGWORLD.jp",
+    "description": "月刊CGWORLDがお届けする、日本で唯一無二のCG＆映像に特化した情報サイトです。3DCG、VFX、撮影、編集などに関する国内外さまざまな話題をお届けします。",
+    "image": "https://cgworld.jp/special-feature/assets_c/2026/10/siliconstudio_top-thumb-1920x1080-90523.jpg",
+    "icon": null
+   }
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-07",
+ "lang": "en",
+ "seconds": 90.06,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.571,
+   "show": "Good morning, and welcome to Mono Radio. It's Saturday, November 7.",
+   "part": 0
+  },
+  {
+   "start": 5.821,
+   "end": 11.495,
+   "show": "Five stories today, from video generation to translation and 3DCG.",
+   "part": 0
+  },
+  {
+   "start": 12.545,
+   "end": 17.772,
+   "show": "First up, Google. Gemini Omni 1.2 Flash is now generally available.",
+   "part": 1
+  },
+  {
+   "start": 18.022,
+   "end": 24.187,
+   "show": "Videos now run up to 15 seconds, and you can tweak them by chatting.",
+   "part": 1
+  },
+  {
+   "start": 25.237,
+   "end": 31.467,
+   "show": "Next, developer tools. Cursor now lets you talk to its agent by voice.",
+   "part": 2
+  },
+  {
+   "start": 31.717,
+   "end": 35.535,
+   "show": "You can ask what just changed while you keep working. Pretty neat.",
+   "part": 2
+  },
+  {
+   "start": 36.585,
+   "end": 42.601,
+   "show": "Next, a homegrown model. Preferred Networks released PLaMo 3 Translate.",
+   "part": 3
+  },
+  {
+   "start": 42.851,
+   "end": 48.761,
+   "show": "It supports 53 languages, with a small model that runs on a phone offline.",
+   "part": 3
+  },
+  {
+   "start": 49.811,
+   "end": 55.549,
+   "show": "Now for some 3DCG. Here's NinjinNormals 2.0, a tool for Maya.",
+   "part": 4
+  },
+  {
+   "start": 55.799,
+   "end": 61.815,
+   "show": "You can turn face shadows into a texture and convert it to an SDF map.",
+   "part": 4
+  },
+  {
+   "start": 62.865,
+   "end": 68.327,
+   "show": "Last up, more 3DCG: Bone Dynamics 1.3 from Silicon Studio.",
+   "part": 5
+  },
+  {
+   "start": 68.577,
+   "end": 74.209,
+   "show": "It keeps hair and outfits from clipping, with solid control over sway.",
+   "part": 5
+  },
+  {
+   "start": 75.259,
+   "end": 84.688,
+   "show": "Today's pick: Gemini Omni, where you can change just the background or staging.",
+   "part": 6
+  },
+  {
+   "start": 84.938,
+   "end": 88.01,
+   "show": "That's all from Mono Radio. Have a great Saturday!",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 12.545
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 12.545,
+   "end": 25.237
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 25.237,
+   "end": 36.585
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 36.585,
+   "end": 49.811
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 49.811,
+   "end": 62.865
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 62.865,
+   "end": 75.259
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 75.259,
+   "end": 90.06
+  }
+ ],
+ "made_at": "2026-11-07T06:52:35"
+}

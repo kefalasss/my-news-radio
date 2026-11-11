@@ -1,0 +1,351 @@
+{
+ "title": "Blender 5.3 Brings Native Gaussian Splatting",
+ "opening": [
+  {
+   "say": "Good morning, and welcome to Mono Radio. It's Wednesday morning, November eleventh.",
+   "show": "Good morning, and welcome to Mono Radio. It's Wednesday morning, November 11."
+  },
+  {
+   "say": "Today we have five stories for you, from Blender all the way to a three D printer.",
+   "show": "Today we have five stories for you, from Blender all the way to a 3D printer."
+  }
+ ],
+ "closing": [
+  {
+   "say": "Blender five point three was the star of today's show, with plenty of updates that can help your creative work right away.",
+   "show": "Blender 5.3 was the star of today's show, with plenty of updates that help creative work right away."
+  },
+  {
+   "say": "That's all for today. Have a great day out there!",
+   "show": "That's all for today. Have a great day out there!"
+  }
+ ],
+ "news": [
+  {
+   "label": "Blender 5.3 Officially Released",
+   "points": [
+    "Native Gaussian Splatting support",
+    "Dispersion added to Cycles",
+    "New shader node in EEVEE"
+   ],
+   "details": [
+    "You can import PLY and SPZ files, edit them with Geometry Nodes, and render them in EEVEE or Cycles.",
+    "Glass and gems can now show rainbow-like dispersion.",
+    "A new node lets you control how a material reacts to light. Video editing also gains features such as ripple editing."
+   ],
+   "lines": [
+    {
+     "say": "Let's start with Blender, where version five point three has officially been released.",
+     "show": "Let's start with Blender, where version 5.3 has officially been released."
+    },
+    {
+     "say": "Gaussian Splatting can now be imported natively, and you can even edit it with Geometry Nodes.",
+     "show": "Gaussian Splatting can now be imported natively, and edited with Geometry Nodes."
+    },
+    {
+     "say": "That makes it much easier to bring three D scenes captured from photos into your projects.",
+     "show": "That makes it much easier to bring 3D scenes captured from photos into your projects."
+    }
+   ],
+   "url": "https://www.blender.org/press/blender-5-3-release/",
+   "link": {
+    "url": "https://www.blender.org/press/blender-5-3-release/",
+    "title": "Blender 5.3 Release — Blender",
+    "site": "Blender",
+    "description": "Blender 5.2 LTS brings node-powered physics, remote access to asset libraries, major rendering advancements and more with 2 years of LTS updates.",
+    "image": "https://www.blender.org/wp-content/uploads/2026/07/splash-overgrown-480x270.webp",
+    "icon": "https://www.blender.org/wp-content/themes/bthree/assets/icons/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "Gemini 4 Carbon Arrives",
+   "points": [
+    "High-performance model now available",
+    "Swarm feature in preview",
+    "Rebuilds 3D space from architectural plans"
+   ],
+   "details": [
+    "The model focuses on complex coding, long-running reasoning, and scientific research.",
+    "Google Antigravity has opened a preview of a feature that coordinates multiple AI agents.",
+    "In a public demo, it rebuilt an interactive Three.js space of about 900,000 polygons."
+   ],
+   "lines": [
+    {
+     "say": "Next up, Google's Gemini four Carbon is now available.",
+     "show": "Next up, Google's Gemini 4 Carbon is now available."
+    },
+    {
+     "say": "A swarm feature, where multiple A I agents work together, has also arrived in preview.",
+     "show": "A /swarm feature, where multiple AI agents work together, has also arrived in preview."
+    }
+   ],
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+   "link": {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+    "title": "Gemini 4 Carbon is now available",
+    "site": "Google",
+    "description": "Today, we’re making Gemini 4 Carbon available to developers, enterprises, scientists, and consumers.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+   }
+  },
+  {
+   "label": "DeepMind's Robot AI",
+   "points": [
+    "Vision-language-action model",
+    "Tested on over 200 kinds of tasks",
+    "96% success rate sorting parts"
+   ],
+   "details": [
+    "Gemini Robotics 2.5 widens the range of tasks it can handle, including using tools and manipulating soft objects.",
+    null,
+    "In a demo on a Mercedes-Benz production line, Apptronik's humanoid robot Apollo 2 sorted car parts. The figure applies to specific conditions, and availability is limited to partners."
+   ],
+   "lines": [
+    {
+     "say": "Let's talk robots. DeepMind has announced Gemini Robotics two point five.",
+     "show": "Let's talk robots. DeepMind has announced Gemini Robotics 2.5."
+    },
+    {
+     "say": "In a car factory demo, a humanoid robot sorted parts with a ninety six percent success rate.",
+     "show": "In a car factory demo, a humanoid robot sorted parts with a 96% success rate."
+    },
+    {
+     "say": "Keep in mind that the number applies to specific conditions, though.",
+     "show": "Keep in mind that the number applies to specific conditions, though."
+    }
+   ],
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "link": {
+    "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+    "title": null,
+    "site": "deepmind.google",
+    "description": null,
+    "image": null,
+    "icon": null
+   }
+  },
+  {
+   "label": "LingBot-Touch Released",
+   "points": [
+    "Tactile model for robots",
+    "Unifies different sensors in one form",
+    "Evaluated on 26 real-robot tasks"
+   ],
+   "details": [
+    "Robbyant, part of Ant Group, released it as open source, along with inference code and a pretrained model.",
+    "It converts data from magnetic, piezoresistive, and visuotactile sensors into a shared representation that can plug into existing robot control AI.",
+    "It was pretrained on about 5,000 hours of tactile data."
+   ],
+   "lines": [
+    {
+     "say": "Here's one more robot story, this time about a sense of touch.",
+     "show": "Here's one more robot story, this time about a sense of touch."
+    },
+    {
+     "say": "Robbyant has released Ling Bot Touch as open source.",
+     "show": "Robbyant has released LingBot-Touch as open source."
+    },
+    {
+     "say": "What's neat is that it turns data from different kinds of sensors into one shared form.",
+     "show": "What's neat is that it turns data from different kinds of sensors into one shared form."
+    }
+   ],
+   "url": "https://technology.robbyant.com/lingbot-touch",
+   "link": {
+    "url": "https://technology.robbyant.com/lingbot-touch",
+    "title": "LingBot-Touch Tactile Foundation Model - Robbyant",
+    "site": "Robbyant 蚂蚁灵波科技",
+    "description": "A tactile foundation model that learns unified representations across magnetic, piezoresistive, and visuotactile sensors, transferring to unseen tactile hardware and dexterous manipulation without ext",
+    "image": "https://mdn.alipayobjects.com/huamei_u94ywh/afts/img/fkaZRp3UjWwAAAAAgBAAAAgADkxfAQFr/original.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "MakeBuddy Smart5 3D Printer",
+   "points": [
+    "54,999 yen including tax",
+    "180 mm square build size",
+    "AI generation coming later"
+   ],
+   "details": [
+    "Sales started on the official store at 11 p.m. on November 10.",
+    "It's the first model in a new home-use series from QIDI Tech, with a focus on a companion app and learning content.",
+    "The feature that generates 3D models from images is planned for a future update and is not available yet."
+   ],
+   "lines": [
+    {
+     "say": "And finally, a three D printer: the Make Buddy Smart five from Q I D I.",
+     "show": "And finally, a 3D printer: the MakeBuddy Smart5 from QIDI."
+    },
+    {
+     "say": "The A I feature that turns images into three D models will have to wait for a future update.",
+     "show": "The AI feature that turns images into 3D models will have to wait for a future update."
+    }
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000004.000187775.html",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000004.000187775.html",
+    "title": "先進のAI技術を搭載した家庭用3Dプリンター「MakeBuddy Smart5」、高品質な3Dプリントと家族で楽しむ創作・学びの体験を提供",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "Zhejiang Qidi Technology Co., Ltd.のプレスリリース（2026年11月10日 23時00分）先進のAI技術を搭載した家庭用3Dプリンター「MakeBuddy Smart5」、高品質な3Dプリントと家族で楽しむ創作・学びの体験を提供",
+    "image": "https://prcdn.freetls.fastly.net/release_image/187775/4/187775-4-9edfd4d5322e7bce0047bb45b456bcbe-1800x1000.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  }
+ ],
+ "highlight": 0,
+ "format": "monoradio/news-1",
+ "date": "2026-11-11",
+ "lang": "en",
+ "seconds": 91.17,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.848,
+   "show": "Good morning, and welcome to Mono Radio. It's Wednesday morning, November 11.",
+   "part": 0
+  },
+  {
+   "start": 6.098,
+   "end": 10.834,
+   "show": "Today we have five stories for you, from Blender all the way to a 3D printer.",
+   "part": 0
+  },
+  {
+   "start": 11.884,
+   "end": 16.62,
+   "show": "Let's start with Blender, where version 5.3 has officially been released.",
+   "part": 1
+  },
+  {
+   "start": 16.87,
+   "end": 22.438,
+   "show": "Gaussian Splatting can now be imported natively, and edited with Geometry Nodes.",
+   "part": 1
+  },
+  {
+   "start": 22.688,
+   "end": 27.829,
+   "show": "That makes it much easier to bring 3D scenes captured from photos into your projects.",
+   "part": 1
+  },
+  {
+   "start": 28.879,
+   "end": 32.378,
+   "show": "Next up, Google's Gemini 4 Carbon is now available.",
+   "part": 2
+  },
+  {
+   "start": 32.628,
+   "end": 37.983,
+   "show": "A /swarm feature, where multiple AI agents work together, has also arrived in preview.",
+   "part": 2
+  },
+  {
+   "start": 39.033,
+   "end": 43.982,
+   "show": "Let's talk robots. DeepMind has announced Gemini Robotics 2.5.",
+   "part": 3
+  },
+  {
+   "start": 44.232,
+   "end": 49.928,
+   "show": "In a car factory demo, a humanoid robot sorted parts with a 96% success rate.",
+   "part": 3
+  },
+  {
+   "start": 50.178,
+   "end": 53.805,
+   "show": "Keep in mind that the number applies to specific conditions, though.",
+   "part": 3
+  },
+  {
+   "start": 54.855,
+   "end": 58.439,
+   "show": "Here's one more robot story, this time about a sense of touch.",
+   "part": 4
+  },
+  {
+   "start": 58.689,
+   "end": 61.718,
+   "show": "Robbyant has released LingBot-Touch as open source.",
+   "part": 4
+  },
+  {
+   "start": 61.968,
+   "end": 66.789,
+   "show": "What's neat is that it turns data from different kinds of sensors into one shared form.",
+   "part": 4
+  },
+  {
+   "start": 67.839,
+   "end": 72.618,
+   "show": "And finally, a 3D printer: the MakeBuddy Smart5 from QIDI.",
+   "part": 5
+  },
+  {
+   "start": 72.868,
+   "end": 78.201,
+   "show": "The AI feature that turns images into 3D models will have to wait for a future update.",
+   "part": 5
+  },
+  {
+   "start": 79.251,
+   "end": 86.27,
+   "show": "Blender 5.3 was the star of today's show, with plenty of updates that help creative work right away.",
+   "part": 6
+  },
+  {
+   "start": 86.52,
+   "end": 89.123,
+   "show": "That's all for today. Have a great day out there!",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 11.884
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 11.884,
+   "end": 28.879
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 28.879,
+   "end": 39.033
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 39.033,
+   "end": 54.855
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 54.855,
+   "end": 67.839
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 67.839,
+   "end": 79.251
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 79.251,
+   "end": 91.173
+  }
+ ],
+ "made_at": "2026-11-11T14:18:09"
+}

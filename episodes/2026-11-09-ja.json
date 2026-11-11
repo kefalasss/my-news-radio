@@ -1,0 +1,320 @@
+{
+ "title": "物理を持つ仮想世界とロボットの映像生成",
+ "opening": [
+  {
+   "say": "おはようございます、ものラジオです。十一月九日、月曜日の朝をお届けします。",
+   "show": "おはようございます、ものラジオです。11月9日、月曜日。"
+  },
+  {
+   "say": "今日はエーアイとスリーディーの話題を、五本お届けします。",
+   "show": "今日はAIと3Dの話題を、5本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Cosmos 3の追加4モデル",
+   "points": [
+    "Cosmos 3 Nano基盤の4モデル",
+    "二腕ロボの動作から映像予測",
+    "自動運転データも生成"
+   ],
+   "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+   "lines": [
+    {
+     "say": "まずはエヌビディアから。コスモススリーをもとにした、四つのオープンなモデルが出ました。",
+     "show": "まずはNVIDIAから。Cosmos 3の新モデルです。"
+    },
+    {
+     "say": "二腕ロボットの動きから次の映像を予想したり、自動運転用のデータを作ったりできるのが面白いところです。",
+     "show": "ロボットの動きに応じた映像を作れるのが面白い。"
+    }
+   ],
+   "details": [
+    "Cosmos 3 Nanoをベースにした4種類のオープンウェイトモデルが公開されました。",
+    "二腕ロボットの動作から次の映像を予測するSim-Bimanualなどが含まれます。",
+    "マルチカメラやLiDARのデータを生成するモデルもあり、事後学習のレシピも公開されています。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+    "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+    "site": "huggingface.co",
+    "description": "A Blog post by NVIDIA on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/677c471f8b4c4e271e57eaa5/rtmGVvFdD6JqkjBc26vsp.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Anthropicの記憶整理",
+   "points": [
+    "実行ログを振り返る「dreaming」",
+    "ログ・メモ・知識を分離",
+    "選んで残すほうが有効"
+   ],
+   "url": "https://www.anthropic.com/research/components-of-agent-memory",
+   "lines": [
+    {
+     "say": "続いてはアンスロピック。エージェントが記憶を整理する、ドリーミングという手法の解説です。",
+     "show": "続いてAnthropic。記憶を整理する「dreaming」です。"
+    },
+    {
+     "say": "全部をためるより、今の目標や確かめたルールを選んで残すほうが効くそうですよ。",
+     "show": "全部ためるより、選んで残すほうが効くそうです。"
+    }
+   ],
+   "details": [
+    "エージェントの実行ログを後から振り返り、重要な知見を記憶へまとめ直す手法です。",
+    "会話ログ、メモ、構造化された知識、次回に読み込むコンテキストを分けて扱います。",
+    "すべて記録するより、現在の目標や検証済みのルールを選んで保存するほうが有効と示されています。"
+   ],
+   "link": {
+    "url": "https://www.anthropic.com/research/components-of-agent-memory",
+    "title": "The components of agent memory",
+    "site": "www.anthropic.com",
+    "description": "For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.",
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg",
+    "icon": "https://www.anthropic.com/images/icons/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "FLUX 3の推論高速化",
+   "points": [
+    "FLUX 3 Image Klein高速化",
+    "最大4.45倍の高速化",
+    "互換エンドポイントの例"
+   ],
+   "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+   "lines": [
+    {
+     "say": "もう一つエヌビディアの話題で、画像生成のフラックススリーを速くするやり方が公開されました。",
+     "show": "もう一つNVIDIA。FLUX 3を速くする方法です。"
+    },
+    {
+     "say": "条件しだいで最大四倍以上の高速化と、かなりの伸びです。",
+     "show": "条件しだいで最大4倍超と、かなりの伸びです。"
+    }
+   ],
+   "details": [
+    "TensorRT LLM VisualGenで、画像生成と画像編集を高速化する方法が公開されました。",
+    "B200単体の2048×2048実験で、テキストから画像は最大3.46倍、画像から画像は最大4.45倍です。",
+    "OpenAI互換の画像生成エンドポイントで提供する実装例も掲載されています。"
+   ],
+   "link": {
+    "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+    "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs | NVIDIA Technical Blog",
+    "site": "NVIDIA Technical Blog",
+    "description": "When deploying diffusion models in design tools, image editors, and visual production workflows, developers must account for inference latency. Generating an image requires multiple sequential passes…",
+    "image": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/techblog-5893-article-kix-ulkeecvizi09.webp",
+    "icon": null
+   }
+  },
+  {
+   "label": "Snapmaker U1 国内発売",
+   "points": [
+    "11月6日に国内販売開始",
+    "4つの独立プリントヘッド",
+    "最大270mm角の造形"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000000012.000007451.html",
+   "lines": [
+    {
+     "say": "3Dプリンターの話題にいきましょう。スナップメーカーのユーワンが、国内で発売されました。",
+     "show": "3Dプリンターの話題へ。Snapmaker U1が発売です。"
+    },
+    {
+     "say": "ヘッドごと約五秒で交換する方式で、色替えのむだが少ないのが売りです。",
+     "show": "ヘッドごと約5秒で交換し、色替えのむだが少ないです。"
+    }
+   ],
+   "details": [
+    "国内正規代理店が発表し、税込154,000円で販売されます。",
+    "ノズルを共用してパージする方式ではなく、ヘッド自体を約5秒で交換するSnapSwap方式です。",
+    "最大270×270×270mmの造形に対応します。最大85%の廃材削減はメーカーの比較試験に基づく値です。"
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000012.000007451.html",
+    "title": "Snapmaker U1登場。4つの独立プリントヘッドで、マルチカラー3Dプリントの常識を変える。",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社マイクロボード・テクノロジーのプレスリリース（2026年11月5日 10時20分）Snapmaker U1登場。4つの独立プリントヘッドで、マルチカラー3Dプリントの常識を変える。",
+    "image": "https://prcdn.freetls.fastly.net/release_image/7451/12/7451-12-8d969a1e1fa1db8e716d2e8625411bb0-2500x1406.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/favicon-196x196.png"
+   }
+  },
+  {
+   "label": "SimReady Central公開",
+   "points": [
+    "3Dアセット2,000点超を無料公開",
+    "質量や摩擦などの物理属性",
+    "自然言語でアセット検索"
+   ],
+   "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+   "lines": [
+    {
+     "say": "最後は再びエヌビディア。シムレディセントラルで、物理情報つきの3Dアセットが二千点以上、無料で公開されています。",
+     "show": "最後もNVIDIA。物理情報つき3Dアセットが無料公開です。"
+    },
+    {
+     "say": "衝突形状や質量まで入っているので、シミュレーションにそのまま使いやすそうです。",
+     "show": "質量まで入っていて、シミュレーションに使いやすそう。"
+    }
+   ],
+   "details": [
+    "ロボットアーム、グリッパー、倉庫設備など2,000点以上のOpenUSDアセットがHugging Face上にあります。",
+    "衝突形状、質量、摩擦、関節制限といったシミュレーション用の属性を持っています。",
+    "自然言語による検索や、AIエージェントを使ったシーン組み立ても想定されています。"
+   ],
+   "link": {
+    "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+    "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+    "site": "huggingface.co",
+    "description": "A Blog post by NVIDIA on Hugging Face",
+    "image": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/XeXjvg4j4TEooxuK8uoO7.png",
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、物理情報つきの仮想環境と、動きに応じた映像生成がつながってきたところです。",
+   "show": "注目は、物理つきの仮想環境と映像生成の連携です。"
+  },
+  {
+   "say": "以上、ものラジオでした。今日も良い一日を。",
+   "show": "以上、ものラジオでした。今日も良い一日を。"
+  }
+ ],
+ "format": "monoradio/news-1",
+ "date": "2026-11-09",
+ "lang": "ja",
+ "seconds": 90.0,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 6.726,
+   "show": "おはようございます、ものラジオです。11月9日、月曜日。",
+   "part": 0
+  },
+  {
+   "start": 6.976,
+   "end": 10.501,
+   "show": "今日はAIと3Dの話題を、5本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 11.551,
+   "end": 17.097,
+   "show": "まずはNVIDIAから。Cosmos 3の新モデルです。",
+   "part": 1
+  },
+  {
+   "start": 17.347,
+   "end": 24.553,
+   "show": "ロボットの動きに応じた映像を作れるのが面白い。",
+   "part": 1
+  },
+  {
+   "start": 25.603,
+   "end": 31.52,
+   "show": "続いてAnthropic。記憶を整理する「dreaming」です。",
+   "part": 2
+  },
+  {
+   "start": 31.77,
+   "end": 37.385,
+   "show": "全部ためるより、選んで残すほうが効くそうです。",
+   "part": 2
+  },
+  {
+   "start": 38.435,
+   "end": 44.735,
+   "show": "もう一つNVIDIA。FLUX 3を速くする方法です。",
+   "part": 3
+  },
+  {
+   "start": 44.985,
+   "end": 49.288,
+   "show": "条件しだいで最大4倍超と、かなりの伸びです。",
+   "part": 3
+  },
+  {
+   "start": 50.338,
+   "end": 56.348,
+   "show": "3Dプリンターの話題へ。Snapmaker U1が発売です。",
+   "part": 4
+  },
+  {
+   "start": 56.598,
+   "end": 61.424,
+   "show": "ヘッドごと約5秒で交換し、色替えのむだが少ないです。",
+   "part": 4
+  },
+  {
+   "start": 62.474,
+   "end": 70.748,
+   "show": "最後もNVIDIA。物理情報つき3Dアセットが無料公開です。",
+   "part": 5
+  },
+  {
+   "start": 70.998,
+   "end": 76.416,
+   "show": "質量まで入っていて、シミュレーションに使いやすそう。",
+   "part": 5
+  },
+  {
+   "start": 77.466,
+   "end": 84.393,
+   "show": "注目は、物理つきの仮想環境と映像生成の連携です。",
+   "part": 6
+  },
+  {
+   "start": 84.643,
+   "end": 87.948,
+   "show": "以上、ものラジオでした。今日も良い一日を。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 11.551
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 11.551,
+   "end": 25.603
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 25.603,
+   "end": 38.435
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 38.435,
+   "end": 50.338
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 50.338,
+   "end": 62.474
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 62.474,
+   "end": 77.466
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 77.466,
+   "end": 89.998
+  }
+ ],
+ "made_at": "2026-11-09T06:11:48"
+}

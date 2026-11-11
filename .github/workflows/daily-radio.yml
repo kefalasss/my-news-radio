@@ -76,8 +76,12 @@ jobs:
           fi
 
       - name: Create broadcast branch with last 30 days of MP3
+        env:
+          GH_TOKEN: ${{ github.token }}
         shell: bash
-        run: bash tools/publish.sh
+        run: |
+          git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf https://github.com/
+          bash tools/publish.sh
 
       - name: Assemble published files
         shell: bash

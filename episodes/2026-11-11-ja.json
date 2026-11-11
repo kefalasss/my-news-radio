@@ -1,7 +1,7 @@
 {
   "format": "monoradio/news-1",
   "source": "my-news-radio-auto",
-  "generation_mode": "rss_headlines",
+  "generation_mode": "gemini",
   "date": "2026-11-11",
   "lang": "ja",
   "title": "2026-11-11 ゲーム開発・CG・AIニュース",
@@ -11,70 +11,85 @@
       "show": "おはようございます。マイニュースラジオです。11月11日のニュースです。"
     },
     {
-      "say": "今日は記事の見出しのみをお伝えします。",
-      "show": "今日は記事の見出しのみをお伝えします。"
+      "say": "ゲーム開発とCG、AIの話題をお届けします。",
+      "show": "ゲーム開発とCG、AIの話題をお届けします。"
     }
   ],
   "news": [
     {
-      "label": "Blender Jobs for November 6, 2026",
+      "label": "Blender向け3Dプリント機能集",
       "points": [
-        "Blender Jobs for November 6, 2026"
+        "18個の便利なアドオンを同梱",
+        "モデルの修復や確認に対応"
       ],
-      "url": "https://www.blendernation.com/2026/11/06/blender-jobs-for-november-6-2026/",
+      "url": "https://www.blendernation.com/2026/11/10/3d-print-suite-18-blender-add-ons-for-3d-printing/",
       "lines": [
         {
-          "say": "Blender Jobs for November 6, 2026。",
-          "show": "Blender Jobs for November 6, 2026。"
+          "say": "Sonneblom Digitaalは、Blender向けの3Dプリント用アドオン18点をまとめたスイートを発表しました。",
+          "show": "Sonneblom Digitaalは、Blender向けの3Dプリント用アドオン18点をまとめたスイートを発表しました。"
+        },
+        {
+          "say": "モデルの修復や印刷適性のチェック機能などが含まれています。",
+          "show": "モデルの修復や印刷適性のチェック機能などが含まれています。"
         }
       ],
       "link": {
-        "url": "https://www.blendernation.com/2026/11/06/blender-jobs-for-november-6-2026/",
-        "title": "Blender Jobs for November 6, 2026",
+        "url": "https://www.blendernation.com/2026/11/10/3d-print-suite-18-blender-add-ons-for-3d-printing/",
+        "title": "3D Print Suite: 18 Blender add-ons for 3D printing",
         "site": "BlenderNation",
-        "description": "Here’s an overview of the most recent Blender jobs on Blender Artists, ArtStation and 3djobs.xyz: [Paid] Photorealistic Female Character Artist – Blender / CC5 ",
+        "description": "Sonneblom Digitaal has put its whole 3D-printing range for Blender into one bundle: the 3D Print Suite, 18 add-ons for Blender 4.2 LTS and newer, each its own i",
         "image": null,
         "icon": null
       }
     },
     {
-      "label": "1960年の廃工事現場に隠された真実とは。3Dサバイバルホラー「Unfinished」，体験版を11月13日22：00にSteamで公開",
+      "label": "ゲーム開発×AIイベント開催",
       "points": [
-        "1960年の廃工事現場に隠された真実とは。3Dサバイバルホラー「Unfinished」，体験版を11月13日22：00にSteamで公開"
+        "12月3日に高輪ゲートウェイで開催",
+        "実務への導入と課題に迫る"
       ],
-      "url": "https://www.4gamer.net/games/057/G105725/20261111004/",
+      "url": "https://www.4gamer.net/games/991/G999101/20261109048/",
       "lines": [
         {
-          "say": "1960年の廃工事現場に隠された真実とは。3Dサバイバルホラー「Unfinished」，体験版を11月13日22：00にSteamで公開。",
-          "show": "1960年の廃工事現場に隠された真実とは。3Dサバイバルホラー「Unfinished」，体験版を11月13日22：00にSteamで公開。"
+          "say": "リヴァイとPolyscapeは、ゲーム開発におけるAI活用をテーマにしたミートアップイベントを12月3日に開催します。",
+          "show": "リヴァイとPolyscapeは、ゲーム開発におけるAI活用をテーマにしたミートアップイベントを12月3日に開催します。"
+        },
+        {
+          "say": "東京の高輪ゲートウェイで、実務への導入や課題について迫ります。",
+          "show": "東京の高輪ゲートウェイで、実務への導入や課題について迫ります。"
         }
       ],
       "link": {
-        "url": "https://www.4gamer.net/games/057/G105725/20261111004/",
-        "title": "1960年の廃工事現場に隠された真実とは。3Dサバイバルホラー「Unfinished」，体験版を11月13日22：00にSteamで公開",
+        "url": "https://www.4gamer.net/games/991/G999101/20261109048/",
+        "title": "「ゲーム開発×AI、今どこまで来たか」ミートアップイベントを12月3日に高輪ゲートウェイで開催。実務への導入と課題に迫る",
         "site": "4Gamer",
-        "description": "CraftFoxCreationsは本日，PC用ソフト「Unfinished」の体験版を2026年11月13日22：00にSteamで公開すると発表した。UnrealEngine5で開発されている本作は，1960年の廃工事現場を舞台にした一人称視点の3Dサバイバルホラーゲームだ。",
+        "description": "リヴァイとPolyscapeは，ゲーム開発におけるAI活用をテーマにしたミートアップイベント「ゲーム開発×AI、今どこまで来たか」を，2026年12月3日に東京・高輪ゲートウェイの「EIGHT」にて開催する。",
         "image": null,
         "icon": null
       }
     },
     {
-      "label": "Adobe releases After Effects 27.0",
+      "label": "Megascansが再び無料に",
       "points": [
-        "Adobe releases After Effects 27.0"
+        "2万3千点以上の3Dスキャン素材",
+        "ゲームやVFX向けに提供"
       ],
-      "url": "https://www.cgchannel.com/2026/11/adobe-releases-after-effects-27-0/",
+      "url": "https://www.cgchannel.com/2026/11/epic-has-made-megascans-free-again-for-good-this-time/",
       "lines": [
         {
-          "say": "Adobe releases After Effects 27.0。",
-          "show": "Adobe releases After Effects 27.0。"
+          "say": "Epicは、2万3千点以上の高品質な3Dスキャン素材を再び無料化すると発表しました。",
+          "show": "Epicは、2万3千点以上の高品質な3Dスキャン素材を再び無料化すると発表しました。"
+        },
+        {
+          "say": "環境アセットや植物などの素材が、ゲームやVFX制作に向けて利用可能になります。",
+          "show": "環境アセットや植物などの素材が、ゲームやVFX制作に向けて利用可能になります。"
         }
       ],
       "link": {
-        "url": "https://www.cgchannel.com/2026/11/adobe-releases-after-effects-27-0/",
-        "title": "Adobe releases After Effects 27.0",
+        "url": "https://www.cgchannel.com/2026/11/epic-has-made-megascans-free-again-for-good-this-time/",
+        "title": "Epic has made Megascans free again – for good, this time",
         "site": "CG Channel",
-        "description": "Check out the new features in the compositing and motion graphics app, from changes to the 3D toolset to the new agentic AI Assistant.",
+        "description": "Download over 23,000 high-quality 3D scans of environment assets, buildings, plants and materials for use in games, VFX and visualization.",
         "image": null,
         "icon": null
       }
@@ -86,7 +101,7 @@
       "show": "以上、今日のニュースでした。また明日。"
     }
   ],
-  "seconds": 42.336,
+  "seconds": 84.6,
   "lines_timed": [
     {
       "start": 0.0,
@@ -96,31 +111,49 @@
     },
     {
       "start": 6.095,
-      "end": 9.17,
-      "show": "今日は記事の見出しのみをお伝えします。",
+      "end": 10.475,
+      "show": "ゲーム開発とCG、AIの話題をお届けします。",
       "part": 0
     },
     {
-      "start": 9.42,
-      "end": 17.16,
-      "show": "Blender Jobs for November 6, 2026。",
+      "start": 10.725,
+      "end": 24.85,
+      "show": "Sonneblom Digitaalは、Blender向けの3Dプリント用アドオン18点をまとめたスイートを発表しました。",
       "part": 1
     },
     {
-      "start": 17.41,
-      "end": 31.495,
-      "show": "1960年の廃工事現場に隠された真実とは。3Dサバイバルホラー「Unfinished」，体験版を11月13日22：00にSteamで公開。",
+      "start": 25.1,
+      "end": 30.01,
+      "show": "モデルの修復や印刷適性のチェック機能などが含まれています。",
+      "part": 1
+    },
+    {
+      "start": 30.26,
+      "end": 47.455,
+      "show": "リヴァイとPolyscapeは、ゲーム開発におけるAI活用をテーマにしたミートアップイベントを12月3日に開催します。",
       "part": 2
     },
     {
-      "start": 31.745,
-      "end": 38.18,
-      "show": "Adobe releases After Effects 27.0。",
+      "start": 47.705,
+      "end": 53.23,
+      "show": "東京の高輪ゲートウェイで、実務への導入や課題について迫ります。",
+      "part": 2
+    },
+    {
+      "start": 53.48,
+      "end": 69.865,
+      "show": "Epicは、2万3千点以上の高品質な3Dスキャン素材を再び無料化すると発表しました。",
       "part": 3
     },
     {
-      "start": 38.43,
-      "end": 42.04,
+      "start": 70.115,
+      "end": 80.465,
+      "show": "環境アセットや植物などの素材が、ゲームやVFX制作に向けて利用可能になります。",
+      "part": 3
+    },
+    {
+      "start": 80.715,
+      "end": 84.325,
       "show": "以上、今日のニュースでした。また明日。",
       "part": 4
     }
@@ -130,32 +163,32 @@
       "kind": "opening",
       "index": null,
       "start": 0.0,
-      "end": 9.42
+      "end": 10.725
     },
     {
       "kind": "news",
       "index": 0,
-      "start": 9.42,
-      "end": 17.41
+      "start": 10.725,
+      "end": 30.26
     },
     {
       "kind": "news",
       "index": 1,
-      "start": 17.41,
-      "end": 31.745
+      "start": 30.26,
+      "end": 53.48
     },
     {
       "kind": "news",
       "index": 2,
-      "start": 31.745,
-      "end": 38.43
+      "start": 53.48,
+      "end": 80.715
     },
     {
       "kind": "closing",
       "index": null,
-      "start": 38.43,
-      "end": 42.336
+      "start": 80.715,
+      "end": 84.6
     }
   ],
-  "made_at": "2026-11-11T09:55:52.141469+00:00"
+  "made_at": "2026-11-11T10:04:30.711403+00:00"
 }
